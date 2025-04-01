@@ -1,0 +1,1335 @@
+<!doctype html>
+<html lang="tr">
+<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Blackberry Forumu  - CHIP Forum</title>
+		<!--
+		
+		        __    _                   ___          
+		  _____/ /_  (_)___  ____  ____  / (_)___  ___ 
+		 / ___/ __ \/ / __ \/ __ \/ __ \/ / / __ \/ _ \
+		/ /__/ / / / / /_/ / /_/ / / / / / / / / /  __/
+		\___/_/ /_/_/ .___/\____/_/ /_/_/_/_/ /_/\___/ 
+		           /_/           
+		           
+		                                 
+		  1,5False  
+		-->
+		
+		<link rel="dns-prefetch" href="https://fonts.gstatic.com" /><link rel="dns-prefetch" href="https://cdn.chip.gen.tr" /><link rel="dns-prefetch" href="https://ajax.googleapis.com" /><link rel="dns-prefetch" href="https://connect.facebook.net" /><link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" /><link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" /><link rel="dns-prefetch" href="https://ls.hit.gemius.pl" /><link rel="dns-prefetch" href="https://www.googletagservices.com" /><link rel="dns-prefetch" href="https://cdn.ampproject.org" /><link rel="preconnect" href="https://fonts.gstatic.com" /><link rel="preconnect" href="https://cdn.chip.gen.tr" /><link rel="preconnect" href="https://ajax.googleapis.com" /><link rel="preconnect" href="https://connect.facebook.net" /><link rel="preconnect" href="https://pagead2.googlesyndication.com" /><link rel="preconnect" href="https://googleads.g.doubleclick.net" /><link rel="preconnect" href="https://ls.hit.gemius.pl" /><link rel="preconnect" href="https://www.googletagservices.com" /><link rel="preconnect" href="https://cdn.ampproject.org" /><link rel="preload" href="https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2" as="font"  crossorigin="anonymous" /><link rel="preload" href="https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2" as="font"  crossorigin="anonymous" /><link rel="preload" href="https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2" as="font"  crossorigin="anonymous" /><link rel="preload" href="https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2" as="font"  crossorigin="anonymous" /><link rel="preload" href="https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2" as="font"  crossorigin="anonymous" /><link rel="preload" href="https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2" as="font"  crossorigin="anonymous" /><link rel="preload" href="https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2" as="font"  crossorigin="anonymous" /><link rel="preload" href="/css/fonts/20210224/Chipico.woff" as="font"  /><link rel="preload" href="/css/fonts/20210224/tempesta.woff" as="font"  /><link rel="preload" href="//forum.chip.com.tr/css/20220418000000/chipstored.css" as="style"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous" /><link rel="preload" href="//forum.chip.com.tr/css/20220418000000/chip.min.css" as="style"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous" /><link rel="preload" href="https://code.jquery.com/jquery-3.4.1.min.js" as="script"  crossorigin="anonymous" /><link rel="preload" href="//forum.chip.com.tr/js/jquery-ui.min.js" as="script"  crossorigin="anonymous" /><link rel="preload" href="//forum.chip.com.tr/js/20240318000000/chipessentials.js" as="script"  crossorigin="anonymous" /><link rel="preload" href="//forum.chip.com.tr/js/20240318000000/chiphome.js" as="script"  crossorigin="anonymous" /><link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap" as="style"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous" /><link rel="prefetch" href="https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2" as="font" crossorigin="anonymous" /><link rel="prefetch" href="https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2" as="font" crossorigin="anonymous" /><link rel="prefetch" href="https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc4.woff2" as="font" crossorigin="anonymous" /><link rel="prefetch" href="https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2" as="font" crossorigin="anonymous" /><link rel="prefetch" href="https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2" as="font" crossorigin="anonymous" /><link rel="prefetch" href="https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2" as="font" crossorigin="anonymous" /><link rel="prefetch" href="https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu7GxKOzY.woff2" as="font" crossorigin="anonymous" /><link rel="prefetch" href="/css/fonts/20210224/Chipico.woff" as="font" /><link rel="prefetch" href="/css/fonts/20210224/tempesta.woff" as="font" /><link rel="prefetch" href="//forum.chip.com.tr/css/20220418000000/chipstored.css" as="style" crossorigin="anonymous" /><link rel="prefetch" href="//forum.chip.com.tr/css/20220418000000/chip.min.css" as="style" crossorigin="anonymous" /><link rel="prefetch" href="https://code.jquery.com/jquery-3.4.1.min.js" as="script" crossorigin="anonymous" /><link rel="prefetch" href="//forum.chip.com.tr/js/jquery-ui.min.js" as="script" crossorigin="anonymous" /><link rel="prefetch" href="//forum.chip.com.tr/js/20240318000000/chipessentials.js" as="script" crossorigin="anonymous" /><link rel="prefetch" href="//forum.chip.com.tr/js/20240318000000/chiphome.js" as="script" crossorigin="anonymous" /><link rel="prefetch" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap" as="style" crossorigin="anonymous" />
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		 
+		
+		<!-- Google tag (gtag.js) -->
+		 
+		<script src=https://bundles.efilli.com/forum.chip.com.tr.prod.js ></script>
+		<script async src=https://www.googletagmanager.com/gtag/js?id=G-M2LXR0DP9D></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-M2LXR0DP9D');
+		</script>
+		
+		<link content="CHIP Online" href="https://plus.google.com/+chiponlineturkiye" rel="publisher" />
+		<meta name="title" content="Blackberry Forumu" />
+		<meta name="description" content="Blackberry telefonları için tartışma platformu - CHIP Forum" /><link rel="alternate" media="only screen and (max-width: 640px)" href="https://forum.chip.com.tr/forum/blackberry-f129/" /><link rel="alternate" media="handheld" href="https://forum.chip.com.tr/forum/blackberry-f129/" /><meta name="robots" content="all" /><meta name="googlebot" content="all" /><link rel="next" href="https://forum.chip.com.tr/forum/blackberry-f129/2/" /><meta name="cXenseParse:pageclass" content="frontpage"/><meta property="image" content="https://forum.chip.com.tr/images/bolum/forum.png" /><meta property="thumbnail" content="https://forum.chip.com.tr/images/bolum/forum.png" />
+		<meta property="name" content="Blackberry Forumu" />
+		<meta property="description" content="Blackberry telefonları için tartışma platformu - CHIP Forum" />
+	
+		<meta property="fb:pages" content="330449759204" />
+		<meta property="og:locale" content="tr_TR" />
+		<meta property="og:site_name" content="CHIP Online" />
+		<meta property="og:url" content="https://forum.chip.com.tr/forum/blackberry-f129/" />
+		
+		
+		<meta name="og:title" content="Blackberry Forumu" />
+		
+		<meta property="og:image" content="https://forum.chip.com.tr/images/bolum/forum.png" /><meta property="og:description" content="Blackberry telefonları için tartışma platformu - CHIP Forum" /><meta property="og:type" content="website" />
+		<meta property="fb:app_id" content="159198717428093" />
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:site" content="@chiponline">
+		<meta property="twitter:creator" content="@chiponline">
+		<meta property="twitter:title" content="Blackberry Forumu" />
+		<meta property="twitter:description" content="Blackberry telefonları için tartışma platformu - CHIP Forum" /><meta property="twitter:image:src" content="https://forum.chip.com.tr/images/bolum/forum.png" />
+		
+		
+		<script type="text/javascript">/*
+ head.core - v1.0.2  head.css3 - v1.0.0  head.load - v1.0.3 */
+(function(a,y){function f(a){A[A.length]=a}function n(a){q.className=q.className.replace(new RegExp(" ?\\b"+a+"\\b"),"")}function p(a,f){for(var c=0,q=a.length;c<q;c++)f.call(a,a[c],c)}function t(){q.className=q.className.replace(/ (w-|eq-|gt-|gte-|lt-|lte-|portrait|no-portrait|landscape|no-landscape)\d+/g,"");var e=a.innerWidth||q.clientWidth,g=a.outerWidth||a.screen.width;k.screen.innerWidth=e;k.screen.outerWidth=g;f("w-"+e);p(c.screens,function(a){e>a?(c.screensCss.gt&&f("gt-"+a),c.screensCss.gte&&
+f("gte-"+a)):e<a?(c.screensCss.lt&&f("lt-"+a),c.screensCss.lte&&f("lte-"+a)):e===a&&(c.screensCss.lte&&f("lte-"+a),c.screensCss.eq&&f("e-q"+a),c.screensCss.gte&&f("gte-"+a))});g=a.innerHeight||q.clientHeight;var d=a.outerHeight||a.screen.height;k.screen.innerHeight=g;k.screen.outerHeight=d;k.feature("portrait",g>e);k.feature("landscape",g<e)}function w(){a.clearTimeout(e);e=a.setTimeout(t,50)}var l=a.document,g=a.navigator,u=a.location,q=l.documentElement,A=[],c={screens:[240,320,480,640,768,800,
+1024,1280,1440,1680,1920],screensCss:{gt:!0,gte:!1,lt:!0,lte:!1,eq:!1},browsers:[{ie:{min:6,max:11}}],browserCss:{gt:!0,gte:!1,lt:!0,lte:!1,eq:!0},html5:!0,page:"-page",section:"-section",head:"head"};if(a.head_conf)for(var d in a.head_conf)a.head_conf[d]!==y&&(c[d]=a.head_conf[d]);var k=a[c.head]=function(){k.ready.apply(null,arguments)};k.feature=function(a,c,e){if(!a)return q.className+=" "+A.join(" "),A=[],k;"[object Function]"===Object.prototype.toString.call(c)&&(c=c.call());f((c?"":"no-")+
+a);k[a]=!!c;e||(n("no-"+a),n(a),k.feature());return k};k.feature("js",!0);d=g.userAgent.toLowerCase();g=/mobile|android|kindle|silk|midp|phone|(windows .+arm|touch)/.test(d);k.feature("mobile",g,!0);k.feature("desktop",!g,!0);d=/(chrome|firefox)[ \/]([\w.]+)/.exec(d)||/(iphone|ipad|ipod)(?:.*version)?[ \/]([\w.]+)/.exec(d)||/(android)(?:.*version)?[ \/]([\w.]+)/.exec(d)||/(webkit|opera)(?:.*version)?[ \/]([\w.]+)/.exec(d)||/(msie) ([\w.]+)/.exec(d)||/(trident).+rv:(\w.)+/.exec(d)||[];g=d[1];d=parseFloat(d[2]);
+switch(g){case "msie":case "trident":g="ie";d=l.documentMode||d;break;case "firefox":g="ff";break;case "ipod":case "ipad":case "iphone":g="ios";break;case "webkit":g="safari"}k.browser={name:g,version:d};k.browser[g]=!0;for(var z=0,E=c.browsers.length;z<E;z++)for(var r in c.browsers[z])if(g===r){f(r);for(var x=c.browsers[z][r].max,m=c.browsers[z][r].min;m<=x;m++)d>m?(c.browserCss.gt&&f("gt-"+r+m),c.browserCss.gte&&f("gte-"+r+m)):d<m?(c.browserCss.lt&&f("lt-"+r+m),c.browserCss.lte&&f("lte-"+r+m)):
+d===m&&(c.browserCss.lte&&f("lte-"+r+m),c.browserCss.eq&&f("eq-"+r+m),c.browserCss.gte&&f("gte-"+r+m))}else f("no-"+r);f(g);f(g+parseInt(d,10));c.html5&&"ie"===g&&9>d&&p("abbr article aside audio canvas details figcaption figure footer header hgroup main mark meter nav output progress section summary time video".split(" "),function(a){l.createElement(a)});p(u.pathname.split("/"),function(a,e){if(2<this.length&&this[e+1]!==y)e&&f(this.slice(e,e+1).join("-").toLowerCase()+c.section);else{a=a||"index";
+var g=a.indexOf(".");0<g&&(a=a.substring(0,g));q.id=a.toLowerCase()+c.page;e||f("root"+c.section)}});k.screen={height:a.screen.height,width:a.screen.width};t();var e=0;a.addEventListener?a.addEventListener("resize",w,!1):a.attachEvent("onresize",w)})(window);
+(function(a,y){function f(a){var f=a.charAt(0).toUpperCase()+a.substr(1);a=(a+" "+w.join(f+" ")+f).split(" ");a:{for(c in a)if(p[a[c]]!==y){var c=!0;break a}c=!1}return!!c}var n=a.document.createElement("i"),p=n.style,t=" -o- -moz- -ms- -webkit- -khtml- ".split(" "),w=["Webkit","Moz","O","ms","Khtml"],l=a[a.head_conf&&a.head_conf.head||"head"],g={localstorage:function(){if("undefined"!==typeof localStorage)try{return localStorage.setItem("lstest","yes"),"yes"===localStorage.getItem("lstest")?(localStorage.removeItem("lstest"),
+window.chipStorageReady=!0):window.chipStorageReady=!1}catch(q){return window.chipStorageReady=!1}else return window.chipStorageReady=!1},gradient:function(){p.cssText=("background-image:"+t.join("gradient(linear,left top,right bottom,from(#9f9),to(#fff));background-image:")+t.join("linear-gradient(left top,#eee,#fff);background-image:")).slice(0,-17);return!!p.backgroundImage},rgba:function(){p.cssText="background-color:rgba(0,0,0,0.5)";return!!p.backgroundColor},opacity:function(){return""===n.style.opacity},
+textshadow:function(){return""===p.textShadow},multiplebgs:function(){p.cssText="background:url(https://),url(https://),red url(https://)";var a=(p.background||"").match(/url/g);return"[object Array]"===Object.prototype.toString.call(a)&&3===a.length},boxshadow:function(){return f("boxShadow")},borderimage:function(){return f("borderImage")},borderradius:function(){return f("borderRadius")},cssreflections:function(){return f("boxReflect")},csstransforms:function(){return f("transform")},csstransitions:function(){return f("transition")},
+touch:function(){return"ontouchstart"in a},retina:function(){return 1<a.devicePixelRatio},fontface:function(){var a=l.browser.version;switch(l.browser.name){case "ie":return 9<=a;case "chrome":return 13<=a;case "ff":return 6<=a;case "ios":return 5<=a;case "android":return!1;case "webkit":return 5.1<=a;case "opera":return 10<=a;default:return!1}}},u;for(u in g)g[u]&&l.feature(u,g[u].call(),!0);l.feature()})(window);
+(function(a,y){function f(){}function n(b,a){if(b){"object"===typeof b&&(b=[].slice.call(b));for(var v=0,c=b.length;v<c;v++)a.call(b,b[v],v)}}function p(b,a){var v=Object.prototype.toString.call(a).slice(8,-1);return a!==y&&null!==a&&v===b}function t(b){return p("Function",b)}function w(b){return p("Array",b)}function l(b){b=b||f;b._done||(b(),b._done=1)}function g(b){var a={};if("object"===typeof b)for(var c in b)b[c]&&(a={name:c,url:b[c]});else a=b.split("/"),a=a[a.length-1],c=a.indexOf("?"),a=
+{name:-1!==c?a.substring(0,c):a,url:b};return(b=D[a.name])&&b.url===a.url?b:D[a.name]=a}function u(b){b=b||D;for(var a in b)if(b.hasOwnProperty(a)&&4!==b[a].state)return!1;return!0}function q(b){b.state=2;n(b.onpreload,function(b){b.call()})}function A(b,a){b.state===y&&(b.state=1,b.onpreload=[],E({url:b.url,type:"cache"},function(){q(b)}))}function c(){var b=arguments,a=b[b.length-1],c=[].slice.call(b,1),e=c[0];t(a)||(a=null);if(w(b[0]))return b[0].push(a),h.load.apply(null,b[0]),h;e?(n(c,function(b){!t(b)&&
+b&&A(g(b))}),k(g(b[0]),t(e)?e:function(){h.load.apply(null,c)})):k(g(b[0]));return h}function d(){var b=arguments,a=b[b.length-1],c={};t(a)||(a=null);if(w(b[0]))return b[0].push(a),h.load.apply(null,b[0]),h;n(b,function(b,e){b!==a&&(b=g(b),c[b.name]=b)});n(b,function(b,e){b!==a&&(b=g(b),k(b,function(){u(c)&&l(a)}))});return h}function k(b,a){a=a||f;4===b.state?a():3===b.state?h.ready(b.name,a):1===b.state?b.onpreload.push(function(){k(b,a)}):(b.state=3,E(b,function(){b.state=4;a();n(C[b.name],function(b){l(b)});
+B&&u()&&n(C.ALL,function(b){l(b)})}))}function z(b){b=(b||"").split("?")[0].split(".");return b[b.length-1].toLowerCase()}function E(b,c){function g(b){d.onload=d.onreadystatechange=d.onerror=null;c()}function h(f){f=f||a.event;if("load"===f.type||/loaded|complete/.test(d.readyState)&&(!e.documentMode||9>e.documentMode))a.clearTimeout(b.errorTimeout),a.clearTimeout(b.cssTimeout),d.onload=d.onreadystatechange=d.onerror=null,c()}function v(){if(4!==b.state&&20>=b.cssRetries){for(var c=0,f=e.styleSheets.length;c<
+f;c++)if(e.styleSheets[c].href===d.href){h({type:"load"});return}b.cssRetries++;b.cssTimeout=a.setTimeout(v,250)}}c=c||f;if("css"===z(b.url)){var d=e.createElement("link");d.type="text/"+(b.type||"css");d.rel="stylesheet";d.href=b.url;b.cssRetries=0;b.cssTimeout=a.setTimeout(v,500)}else d=e.createElement("script"),d.type="text/"+(b.type||"javascript"),d.defer="defer",d.src=b.url;d.onload=d.onreadystatechange=h;d.onerror=g;d.async=!1;d.defer=!1;b.errorTimeout=a.setTimeout(function(){g({type:"timeout"})},
+7E3);var k=e.head||e.getElementsByTagName("head")[0];k.insertBefore(d,k.lastChild)}function r(){for(var b=e.getElementsByTagName("script"),a=0,c=b.length;a<c;a++){var d=b[a].getAttribute("data-headjs-load");if(d){h.load(d);break}}}function x(){e.body?B||(B=!0,r(),n(G,function(b){l(b)})):(a.clearTimeout(h.readyTimeout),h.readyTimeout=a.setTimeout(x,50))}function m(){e.addEventListener?(e.removeEventListener("DOMContentLoaded",m,!1),x()):"complete"===e.readyState&&(e.detachEvent("onreadystatechange",
+m),x())}var e=a.document,G=[],C={},D={},I="async"in e.createElement("script")||"MozAppearance"in e.documentElement.style||a.opera,B,H=a.head_conf&&a.head_conf.head||"head",h=a[H]=a[H]||function(){h.ready.apply(null,arguments)};if("complete"===e.readyState)x();else if(e.addEventListener)e.addEventListener("DOMContentLoaded",m,!1),a.addEventListener("load",x,!1);else{e.attachEvent("onreadystatechange",m);a.attachEvent("onload",x);var F=!1;try{F=!a.frameElement&&e.documentElement}catch(b){}F&&F.doScroll&&
+function v(){if(!B){try{F.doScroll("left")}catch(J){a.clearTimeout(h.readyTimeout);h.readyTimeout=a.setTimeout(v,50);return}x()}}()}h.load=h.js=I?d:c;h.test=function(b,a,c,d){b="object"===typeof b?b:{test:b,success:a?w(a)?a:[a]:!1,failure:c?w(c)?c:[c]:!1,callback:d||f};(a=!!b.test)&&b.success?(b.success.push(b.callback),h.load.apply(null,b.success)):!a&&b.failure?(b.failure.push(b.callback),h.load.apply(null,b.failure)):d();return h};h.ready=function(a,c){if(a===e)return B?l(c):G.push(c),h;t(a)&&
+(c=a,a="ALL");if(w(a)){var b={};n(a,function(a){b[a]=D[a];h.ready(a,function(){u(b)&&l(c)})});return h}if("string"!==typeof a||!t(c))return h;var d=D[a];if(d&&4===d.state||"ALL"===a&&u()&&B)return l(c),h;(d=C[a])?d.push(c):d=C[a]=[c];return h};h.ready(e,function(){u()&&n(C.ALL,function(a){l(a)});h.feature&&h.feature("domloaded",!0)})})(window);
+function chipStorage(c,b,d,e){if(head.localstorage){var a=!1;a="undefined"==typeof localStorage[c+"_ver"]?!1:localStorage[c+"_ver"]!==e?!1:!0;0==a&&window.XMLHttpRequest?(a=new XMLHttpRequest,a.onreadystatechange=function(){if(4==this.readyState&&200==this.status)switch(localStorage[c]=this.responseText,localStorage[c+"_ver"]=e,d){case "css":var a=document.createElement("style");a.innerHTML=this.responseText;document.getElementsByTagName("head")[0].appendChild(a)}},b=0<b.indexOf("?")?b+"&t="+Math.random():
+b+"?t="+Math.random(),a.open("GET",b,!0),a.send()):(b=document.createElement("style"),b.innerHTML=localStorage[c],document.getElementsByTagName("head")[0].appendChild(b))}else switch(d){case "css":a=document.createElement("link"),a.href=b,a.rel="stylesheet",a.type="text/css",document.getElementsByTagName("head")[0].appendChild(a)}};
+</script><style>:root{--bs-font-sans-serif:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}body{font:13px/1.231 sans-serif;*font-size:small}select,input,textarea,button{font:99% sans-serif}pre,code,kbd,samp{font-family:monospace,sans-serif}html{overflow-y:scroll}a:hover,a:active{outline:0}ul,ol{margin-left:2em}ol{list-style-type:decimal}nav ul,nav li{margin:0;list-style:none;list-style-image:none}small{font-size:85%}strong,th{font-weight:bold}sub,sup{font-size:75%;line-height:0;position:relative}sup{top:-0.5em}sub{bottom:-0.25em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word;padding:15px}textarea{overflow:auto}.ie6 legend,.ie7 legend{margin-left:-7px}input[type="radio"]{vertical-align:text-bottom}input[type="checkbox"]{vertical-align:baseline}.ie7 input[type="checkbox"]{vertical-align:baseline}.ie6 input{vertical-align:text-bottom}label,input[type="button"],input[type="submit"],input[type="image"],button{cursor:pointer}button,input,select,textarea{margin:0}input:invalid,textarea:invalid{border-radius:1px;-moz-box-shadow:0 0 5px red;-webkit-box-shadow:0 0 5px red;box-shadow:0 0 5px red}.no-boxshadow input:invalid,.no-boxshadow textarea:invalid{background-color:#f0dddd}a:link{-webkit-tap-highlight-color:rgba(0,0,0,.5)}button{width:auto;overflow:visible}.ie7 img{-ms-interpolation-mode:bicubic}body,select,input,textarea{color:#444}h1,h2,h3,h4,h5,h6{font-weight:bold}#anamenu .menu .menuWrapper{display:none}figure{background-repeat:no-repeat}.asCarousel{height:300px;position:relative;margin-bottom:40px}.asCarousel .owl-item{overflow:hidden}.carouselPage{width:100%;height:300px;overflow:hidden}.carbg{display:block;width:100%;height:100%;background-repeat:no-repeat;background-position:center center;background-size:cover}.cara{display:block;width:100%;height:100%;overflow:hidden}.cara:before{content:"";position:absolute;display:block;height:100%;width:100%;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMzJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC42NSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);background:-moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0) 33%,rgba(0,0,0,0.65) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(33%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,0.65)));background:-webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0) 33%,rgba(0,0,0,0.65) 100%);background:-o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0) 33%,rgba(0,0,0,0.65) 100%);background:-ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0) 33%,rgba(0,0,0,0.65) 100%);background:linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 33%,rgba(0,0,0,0.65) 100%);bottom:0;z-index:0}.cara .content{position:absolute;bottom:0;width:100%;box-sizing:border-box;padding:2% 5%;text-shadow:2px 2px 2px #000,0px 0 2px #000}.cara h3{font-family:'Poppins',serif;font-size:2em;font-weight:700;color:#eee;line-height:1.3em;padding-bottom:.3em}.cara:hover:before{background:rgba(0,0,0,.5)}.carfull .carbg,.carhalf .carbg{-moz-transition:all .5s;-webkit-transition:all .5s;transition:all .5s;-moz-transform:scale(1,1);-webkit-transform:scale(1,1);transform:scale(1,1);background-position:center center;background-repeat:no-repeat;background-size:cover;position:absolute;top:0;left:0;width:100%;height:100%}.buttonp{padding-bottom:0;text-align:center}.buttonp a.gbtnTertiary,.buttonp a.gbtnPrimary{width:45%;overflow:hidden;font-size:1em;float:left;margin-bottom:0;margin-right:2%;margin-left:3%}.buttonp:after{clear:both;content:'';height:1px;display:block}.buttonp.single a.gbtnTertiary,.buttonp.single a.gbtnPrimary{margin-left:auto;margin-right:auto;float:none;display:inline-block}.carfull:hover .carbg,.carhalf:hover .carbg{-moz-transition:all .5s;-webkit-transition:all .5s;transition:all .5s;-moz-transform:scale(1.2,1.2);-webkit-transform:scale(1.2,1.2);transform:scale(1.2,1.2)}.carfull,.carhalf{overflow:hidden!important;display:block}.carfull:hover h3,.carhalf:hover h3,a.cara:hover h3{color:#f90}a.cara p{color:#eee;line-height:1.4em;font-size:1em}.carhalf{width:100%;height:50%;position:relative;display:block}.carhalf p{display:none}.carhalf h3{font-size:1.6em}.carstandard{width:340px}.carlarge1{width:487px}.carmidpage{width:292px}.asCover{position:relative;height:310px}.carouselPage .carhalf:first-child{border-bottom:1px solid #fff}figure.image{max-width:100%}.ad728{height:250px}@media all and (max-width:1440px){.carstandard{width:288px}.carlarge1{width:404px}.carmidpage{width:245px}}@media all and (max-width:1024px){.asCarousel{font-size:.86em}.asCover{position:static!important}.carouselPage{width:100%;height:250px}.carstandard{width:100%}.carlarge1{width:100%}.carmidpage{width:100%}.ad728{height:120px}}@media all and (max-width:640px){.cara:before{box-shadow:0 -1px 0 1px rgba(255,255,255,1) inset}.asCarousel{font-size:.86em}.carouselPage{max-height:250px!important;height:250px!important;overflow:hidden!important}.asCover{position:static!important}@media only screen and (min-device-width:961px){.onlymobile{display:none!important}}@media only screen and (max-device-width:960px){.onlydesktop{display:none!important}}}.anafooter .topfooter{align-items:center;background-color:#000;display:flex;flex-direction:column;padding-bottom:40px;padding-top:40px;color:#fff;text-shadow:0;text-align:center}.anafooter .topfooter nav{margin-bottom:40px;text-align:center}.topfooter nav a{color:#fff;margin-right:20px;text-decoration:none}.topfooter nav a:hover{color:#eee;text-decoration:none}.anafooter>.topfooter>nav>a:not(:last-child):after{color:#fff;content:"-";padding-left:20px}.anafooter>.footer{background-color:#eb141b;padding-bottom:20px;width:100%;padding-top:20px;text-align:center;color:#fff;text-shadow:0}</style>
+		<script>var rfd=!1;0<location.hash.indexOf("rf")&&(rfd=!0,history.replaceState("",document.title,window.location.pathname));</script>
+
+			
+		
+				
+		<script type="text/javascript">
+			chipStorage('chipstoragecss','/css/20220418000000/chipstored.css','css','20220418000000');chipStorage('chipmaincss','/css/20220418000000/chip.min.css','css','20220418000000');chipStorage('googlefonts','https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap','css','20160915');
+			var sunucu = { anadomain: 'forum.chip.com.tr', imgcdn: 'forum.chip.com.tr', imgcdnsecure: 'forum.chip.com.tr', xhrdomain: 'forum.chip.com.tr', xhrpath:'/scripts/xhr/' };
+			var chipvars = { abact: true, analyticsId: '', facebookappid: '159198717428093', twittername: 'chiponline', recaptcha: '6LdXS_oSAAAAAO6DaN889F4PlGsNLSG155V2ryCz', googleappid: '826015667302.apps.googleusercontent.com', googlepkey: 'AIzaSyBzI4jM7jV0ZnOJOypb5xOFFTB5g_FAXbs', atid: 'ra-4db577e72da1144d', onesigid: '3b1f917b-4c37-4578-b41a-be47a8f66eec', iurclientid: 'ec24121b8b6f520', rft: 150, dailyvid: true, spbt: false, rf: true , canonicalurl: 'https://forum.chip.com.tr/forum/blackberry-f129/', addthisid: 'ra-4db577e72da1144d', addthisdomain: 'www.chip.com.tr' }
+			window.addthis_share = { 'passthrough': { 'facebook':{ 'app_id' : chipvars.facebookappid, 'redirect_uri': 'https://forum.chip.com.tr/forum/blackberry-f129/'}}};
+			window.sunucu = sunucu; window.chipvars = chipvars;var hcss = [""];
+			
+			if(head.browser.ie&&head.browser.version<10){for(var hc=0;hc<hcss.length;hc++){head.load(hcss[hc])}}else{head.load(hcss)};
+			
+			window.___gcfg = { lang: 'tr-TR', parsetags: 'explicit' };
+	
+		
+			var chipScriptList = [];
+		
+			
+			
+			Array.prototype.push.apply(chipScriptList, [{'ads': '//forum.chip.com.tr/reklam/ads.js'}, { 'jqueryui': '//forum.chip.com.tr/js/jquery-ui.min.js'}, { 'chipessentials': "//forum.chip.com.tr/js/20240318000000/chipessentials.js"},{ 'chiphome': '//forum.chip.com.tr/js/20240318000000/chiphome.js' }, "//forum.chip.com.tr/js/jquery.poshytip.min.js","//forum.chip.com.tr/js/jquery.fancybox.pack.js" ,"//forum.chip.com.tr/js/forums.js"]);
+			
+		
+			
+		</script>
+		
+
+		
+		<!--[if lte IE 9]>
+  		<link href="//forum.chip.com.tr/css/lt-ie9.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<link rel="manifest" href="/manifest.json" defer /> 
+		<link href="//forum.chip.com.tr/images/ico/chiponline-57x57.webp" rel="apple-touch-icon" sizes="57x57" /><link href="//forum.chip.com.tr/images/ico/chiponline-60x60.png" rel="apple-touch-icon" sizes="60x60" /><link href="//forum.chip.com.tr/images/ico/chiponline-72x72.png" rel="apple-touch-icon" sizes="72x72" /><link href="//forum.chip.com.tr/images/ico/chiponline-76x76.png" rel="apple-touch-icon" sizes="76x76" /><link href="//forum.chip.com.tr/images/ico/chiponline-114x114.png" rel="apple-touch-icon" sizes="114x114" /><link href="//forum.chip.com.tr/images/ico/chiponline-120x120.png" rel="apple-touch-icon" sizes="120x120" /><link href="//forum.chip.com.tr/images/ico/chiponline-144x144.png" rel="apple-touch-icon" sizes="144x144" /><link href="//forum.chip.com.tr/images/ico/chiponline-152x152.png" rel="apple-touch-icon" sizes="152x152" /><link href="//forum.chip.com.tr/images/ico/chiponline-180x180.png" rel="apple-touch-icon" sizes="180x180" /><link href="//forum.chip.com.tr/images/ico/chiponline-192x192.png" rel="icon" sizes="192x192" type="image/png" /><link href="//forum.chip.com.tr/images/ico/chiponline-16x16.png" rel="icon" sizes="16x16" type="image/png" /><link href="//forum.chip.com.tr/images/ico/chiponline-24x24.png" rel="icon" sizes="24x24" type="image/png" /><link href="//forum.chip.com.tr/images/ico/chiponline-32x32.png" rel="icon" sizes="32x32" type="image/png" /><link href="//forum.chip.com.tr/images/ico/chiponline-48x48.png" rel="icon" sizes="48x48" type="image/png" /><link href="//forum.chip.com.tr/images/ico/chiponline-96x96.webp" rel="icon" sizes="96x96" type="image/webp" /><link href="/favicon.ico" rel="shortcut icon" />
+		<meta name="theme-color" content="#eb443f">
+		<meta name="application-name" content="CHIP Online" />
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0">
+	
+		
+		<link rel="canonical" href="https://forum.chip.com.tr/forum/blackberry-f129/" />
+		
+  
+     
+     	<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+			
+<script async type="text/javascript" id="empower-ad-script" src="https://static.virgul.com/theme/mockups/adcode/outside.js?namespace=empower&class=empower-ad&site=chip_tr"></script>
+
+
+
+<style>#cpmenu{width:220px}.dm-textarea{background-color:#fff;padding:8px 8px;line-height:1.6em}a,div,p,td,li,span{max-height:999999em}.no-min-width{min-width:0}.min-width-728{min-width:728px}.responsive-text-show{display:none;visibility:hidden}#forumwrap{font-size:.92em;line-height:1.6em;margin-bottom:30px}#forumwrap:after{clear:both;content:'';width:100%;display:block}#forumwrap a{text-decoration:none}#forumwrap a:visited{text-decoration:none}#forumwrap a:hover{text-decoration:none;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}.forumbox-row>div{border-bottom:1px solid #d8d8d8;padding:15px 20px;display:table-cell;vertical-align:top;position:relative;background-color:rgba(255,255,255,0.5)}.forumbox-row:hover>div,.thread-row:hover>div{background-color:#ebebeb;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}.thread-row>div{display:table-cell;vertical-align:top;border-bottom:1px solid #d8d8d8;padding:10px 10px 0 10px}.forumbox{border:1px solid #d8d8d8;margin-bottom:15px;background-color:#f9f9f9;width:100%;clear:left}.threadbox{border:1px solid #d8d8d8;background-color:#f9f9f9;clear:left}.boxShadow,.box-shadow{-moz-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);-webkit-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);-o-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);box-shadow:0 3px 1px 0 rgba(0,0,0,0.02)}.forum-head{background:#f9f9f9;color:#454545;border-bottom:1px solid #d8d8d8;position:relative;-moz-box-shadow:0 3px 3px rgba(0,0,0,.05);-webkit-box-shadow:0 3px 3px rgba(0,0,0,.05);-o-box-shadow:0 3px 3px rgba(0,0,0,.05);box-shadow:0 3px 3px rgba(0,0,0,.05);padding:0 0 0 20px;margin:0;clear:left}.cola,.collapse{padding:10px 20px;border-left:1px solid #d8d8d8}.forum-head h2.categorytitle,.forum-head h2.forumtitle{font-weight:500;margin:14px 0;padding:0;font-size:18px;font-family:var(--bs-font-sans-serif);display:inline-block;font-style:normal}.forum-head h2 i{margin-right:6px;font-size:.8em}#forumwrap .fonticon{font-size:.7em}.forumhome-whats_going_on,.forum-bottom-billboard-sibling{clear:none!important;width:100%;background-color:#f9f9f9;border:1px solid #d8d8d8}.forumhome-whats_going_on .smallfont{margin:10px 5px;padding-left:15px;clear:left;font-size:11pt;line-height:2em}.threadbox h4{background-color:#d8d8d8;font-size:11pt;margin:-1px 0 0;float:left;clear:left;padding:6px 0;width:100%;text-indent:11pt}.forumhome-whats_going_on h3{background-color:#d8d8d8;font-size:11pt;margin-top:0;padding:5px 0;float:left;width:100%;text-indent:15px}#forumwrap .forum-head h2 a{color:#666}.title-prefix{color:#aaa}.forum-childforum-listings{display:table;width:100%;padding:0;margin:0}.thread-listing{display:table;width:100%;padding:0;margin:0}.forumbox-row,.thread-row{display:table-row;width:100%}.forumnav{clear:both;margin:10px 0;position:relative;width:100%}.forumnav:after{clear:both;content:'';display:block;width:100%}.forumsort{padding:6px 6px;background-color:#d8d8d8}.fsform{float:right}.fsinfo{float:left;line-height:36px}.forumsort:after{width:100%;clear:both;content:'';display:block}.forumnav .navbuttons{float:left;white-space:nowrap}.reversebuttoncon{background-color:#828282;color:#eee;width:1em;height:1em;text-align:center;position:relative;top:2px;padding:1px 1px;border-radius:100% 100%;display:inline-block}.forumnav .navpaging{float:right}.forumnav .navpaging .pagination{margin:6px 0 0}.threadbit-pagelinks{margin-left:5px}.post-head-container span.uyename{color:#444}.post-head-container .uyename{font-size:1.08em}#forumwrap h1.pagetitle{margin-bottom:10px}.threadbit-pagelinks a{margin-right:2px}span.threadbit-pagelinks.smallfont{display:inline-block;line-height:normal;font-size:.92em;line-height:1em;margin-bottom:0;padding-left:5px}.thread-pagenav:hover{color:#454545;background-color:#d8d8d8;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}.thread-pagenav{border:1px solid #d8d8d8;padding:2px 6px 0;margin-right:-1px;text-align:center;vertical-align:top}.thread-pagenav .fonticon-angle-double-right{position:relative;top:-1px}@media all and (max-width:1272px){span.threadbit-pagelinks.smallfont{float:right;margin-top:10px;padding-bottom:6px;clear:right}}.forum-cell{width:100%;position:relative}.thread-icon-cell{padding:10px 0 10px 10px;width:51px;font-size:24px;color:#a9a9a9;min-width:51px;line-height:32px;max-width:51px}.thread-info-cell{width:100%}.thread-row .info-cell{min-width:190px}.threadTitleUnread{font-weight:700;font-size:.92em}.threadTitle{font-family:var(--bs-font-sans-serif);position:relative;font-size:1em}.thread-prefix,.thread-prefix a{display:inline-block;margin-right:5px;color:#727272}.thread-title-cell h3{display:inline-block;font-weight:normal;position:relative;font-size:1.12em;padding:0;margin:0}.smallfont{margin-bottom:6px;display:inline-block}.forum-cell a,.thread-title-cell a,.thread-icon-cell a,.forum-cell a:visited,.thread-title-cell a:visited,.thread-icon-cell a:visited,.forum-cell a:active,.thread-title-cell a:active,.thread-icon-cell a:active{color:#de7300}.forum-cell a:hover,.thread-title-cell a:hover,.thread-icon-cell a:hover{color:#454545}.forum-cell .favorite{position:absolute;top:22px;right:10px;color:#f90;font-size:11pt;font-family:'Chipico';cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.forum-cell .favorite:after{content:'\e641'}.forum-cell .favorite.active:after{content:'\e643'}.count-cell{width:8%!important;border-left:1px solid #d8d8d8;border-right:1px solid #d8d8d8;text-align:right;min-width:90px;font-size:13px;padding:15px 10px 0 0;white-space:nowrap}.info-cell{width:30%!important;min-width:250px;padding:15px 0 0 10px;font-size:.86em;line-height:1.4em;white-space:nowrap}.threadmetaicons{float:right;margin-top:10px;font-size:11pt;color:#a9a9a9}.threadrating i{color:#ffbd2d}.menu-cell{position:relative;text-align:center;vertical-align:middle}.menu-cell .forummenu,.menu-cell .forumkonumenu{display:block;width:16px;height:16px;line-height:16px;text-align:center;color:#de7300;margin-top:10px;margin-left:auto;margin-right:auto;position:relative;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.menu-cell ul,.forumcatmenu ul{display:none;max-width:200px;background-color:#fff;position:absolute;z-index:99998;right:0;margin-right:-1px;border-left:1px solid #ddd;border-right:1px solid #ddd;border-bottom:1px solid #ddd}.forumcatmenu ul{margin-top:10px}.toggledMenu{background-color:#fff}.menu-cell ul.active,.forumcatmenu ul.active{display:block}.menu-cell ul li,.forumcatmenu ul li{font-family:var(--bs-font-sans-serif);display:block;font-size:11pt;line-height:1.6em}.menu-cell ul li a,.forumcatmenu ul li a{display:block;padding:4px 10px;color:#666;white-space:nowrap;text-align:left}.menu-cell ul li a:hover,.forumcatmenu ul li a:hover{color:inherit;background-color:#ddd}.tp{color:#a9a9a9}.picon,.post-icon{float:left;margin-right:10px;margin-top:0;width:24px;margin-bottom:10px}.thread-icon-cell .picon{margin-right:5px}.thread-icon-cell i.chipcon{display:inline-block;margin-top:5px}@media all and (max-width:1440px){.info-cell{min-width:180px;padding:15px 0 0 6px!important}.picon,.post-icon{margin-right:5px}}.forumtitle{line-height:1.4em;margin:0;padding:0;padding-top:0}.forumtitle{line-height:1.4em;margin:0;padding:0;padding-top:0}.forumdescription{padding-left:1em;font-size:.92em}.forumtitle a{font-size:1.14em!important;font-weight:500}.flink:before{color:#727272;font-family:'Chipico';content:'\f054';margin-right:6px;font-size:.8em}.flink.active:before{color:#de7300}.flink.locked:before{content:'\f023'}.smallfont{font-size:.92em}#forumwrap a.grey-title{color:#727272;font-size:13px}.time{color:#a9a9a9}strong{font-weight:500}.subforums li{float:left;width:49%;line-height:1.5em;margin-bottom:.6em;font-size:.92em}.subforums{padding:10px 10px}.subforums em{font-size:13px}.subforums:after{content:'';display:table;width:100%}.forumicon{width:24px;height:32px;display:inline-block;line-height:32px;background-image:url(/images/forum/icon/forumicons.png);background-repeat:no-repeat;background-size:320px 320px}.ficon0{background-position:-4px 0}.ficon1{background-position:-4px -32px}.ficon2{background-position:-4px -64px}.ficon3{background-position:-4px -96px}.ficon4{background-position:-4px -128px}.ficon5{background-position:-4px -160px}.ficon6{background-position:-4px -192px}.ficon7{background-position:-4px -224px}.ficon8{background-position:-4px -256px}.ficon9{background-position:-4px -288px}.ficon10{background-position:-36px 0}.ficon11{background-position:-36px -32px}.ficon12{background-position:-36px -64px}.ficon13{background-position:-36px -96px}.ficon14{background-position:-36px -128px}.ficon15{background-position:-36px -160px}.ficon16{background-position:-36px -192px}.ficon17{background-position:-36px -224px}.ficon18{background-position:-36px -256px}.ficon19{background-position:-36px -288px}.ficon20{background-position:-68px 0}.ficon21{background-position:-68px -32px}.ficon22{background-position:-68px -64px}.ficon23{background-position:-68px -96px}.ficon24{background-position:-68px -128px}.ficon25{background-position:-68px -160px}.ficon26{background-position:-68px -192px}.ficon27{background-position:-68px -224px}.ficon28{background-position:-68px -256px}.ficon29{background-position:-68px -288px}.ficon30{background-position:-100px 0}.ficon31{background-position:-100px -32px}.ficon32{background-position:-100px -64px}.ficon33{background-position:-100px -96px}.ficon34{background-position:-100px -128px}.ficon35{background-position:-100px -160px}.ficon36{background-position:-100px -192px}.ficon37{background-position:-100px -224px}.ficon38{background-position:-100px -256px}.ficon39{background-position:-100px -288px}.ficon40{background-position:-132px 0}.ficon41{background-position:-132px -32px}.ficon42{background-position:-132px -64px}.ficon43{background-position:-132px -96px}.ficon44{background-position:-132px -128px}.ficon45{background-position:-132px -160px}.ficon46{background-position:-132px -192px}.ficon47{background-position:-132px -224px}.ficon48{background-position:-132px -256px}.ficon49{background-position:-132px -288px}.ficon50{background-position:-164px 0}.ficon51{background-position:-164px -32px}.ficon52{background-position:-164px -64px}.ficon53{background-position:-164px -96px}.ficon54{background-position:-164px -128px}.ficon55{background-position:-164px -160px}.ficon56{background-position:-164px -192px}.ficon57{background-position:-164px -224px}.ficon58{background-position:-164px -256px}.ficon59{background-position:-164px -288px}.ficon60{background-position:-196px 0}.ficon61{background-position:-196px -32px}.ficon62{background-position:-196px -64px}.ficon63{background-position:-196px -96px}.ficon64{background-position:-196px -128px}.ficon65{background-position:-196px -160px}.ficon66{background-position:-196px -192px}.ficon67{background-position:-196px -224px}.ficon68{background-position:-196px -256px}.ficon69{background-position:-196px -288px}.ficon70{background-position:-228px 0}.ficon71{background-position:-228px -32px}.ficon72{background-position:-228px -64px}.ficon73{background-position:-228px -96px}.ficon74{background-position:-228px -128px}.ficon75{background-position:-228px -160px}.ficon76{background-position:-228px -192px}.ficon77{background-position:-228px -224px}.ficon78{background-position:-228px -256px}.ficon79{background-position:-228px -288px}.ficon80{background-position:-260px 0}.ficon81{background-position:-260px -32px}.ficon82{background-position:-260px -64px}.ficon83{background-position:-260px -96px}.ficon84{background-position:-260px -128px}.ficon85{background-position:-260px -160px}.ficon86{background-position:-260px -192px}.ficon87{background-position:-260px -224px}.ficon88{background-position:-260px -256px}.ficon89{background-position:-260px -288px}.ficon90{background-position:-292px 0}.ficon91{background-position:-292px -32px}.ficon92{background-position:-292px -64px}.ficon93{background-position:-292px -96px}.ficon94{background-position:-292px -128px}.ficon95{background-position:-292px -160px}.ficon96{background-position:-292px -192px}.ficon97{background-position:-292px -224px}.ficon98{background-position:-292px -256px}.ficon99{background-position:-292px -288px}@media all and (max-width:1440px){.forumicon{width:16px;height:24px;display:inline-block;line-height:32px;background-image:url(/images/forum/icon/forumicons.png);background-repeat:no-repeat;background-size:240px 240px}.ficon0{background-position:-4px 0}.ficon1{background-position:-4px -24px}.ficon2{background-position:-4px -48px}.ficon3{background-position:-4px -72px}.ficon4{background-position:-4px -96px}.ficon5{background-position:-4px -120px}.ficon6{background-position:-4px -144px}.ficon7{background-position:-4px -168px}.ficon8{background-position:-4px -192px}.ficon9{background-position:-4px -216px}.ficon10{background-position:-28px 0}.ficon11{background-position:-28px -24px}.ficon12{background-position:-28px -48px}.ficon13{background-position:-28px -72px}.ficon14{background-position:-28px -96px}.ficon15{background-position:-28px -120px}.ficon16{background-position:-28px -144px}.ficon17{background-position:-28px -168px}.ficon18{background-position:-28px -192px}.ficon19{background-position:-28px -216px}.ficon20{background-position:-52px 0}.ficon21{background-position:-52px -24px}.ficon22{background-position:-52px -48px}.ficon23{background-position:-52px -72px}.ficon24{background-position:-52px -96px}.ficon25{background-position:-52px -120px}.ficon26{background-position:-52px -144px}.ficon27{background-position:-52px -168px}.ficon28{background-position:-52px -192px}.ficon29{background-position:-52px -216px}.ficon30{background-position:-76px 0}.ficon31{background-position:-76px -24px}.ficon32{background-position:-76px -48px}.ficon33{background-position:-76px -72px}.ficon34{background-position:-76px -96px}.ficon35{background-position:-76px -120px}.ficon36{background-position:-76px -144px}.ficon37{background-position:-76px -168px}.ficon38{background-position:-76px -192px}.ficon39{background-position:-76px -216px}.ficon40{background-position:-100px 0}.ficon41{background-position:-100px -24px}.ficon42{background-position:-100px -48px}.ficon43{background-position:-100px -72px}.ficon44{background-position:-100px -96px}.ficon45{background-position:-100px -120px}.ficon46{background-position:-100px -144px}.ficon47{background-position:-100px -168px}.ficon48{background-position:-100px -192px}.ficon49{background-position:-100px -216px}.ficon50{background-position:-124px 0}.ficon51{background-position:-124px -24px}.ficon52{background-position:-124px -48px}.ficon53{background-position:-124px -72px}.ficon54{background-position:-124px -96px}.ficon55{background-position:-124px -120px}.ficon56{background-position:-124px -144px}.ficon57{background-position:-124px -168px}.ficon58{background-position:-124px -192px}.ficon59{background-position:-124px -216px}.ficon60{background-position:-148px 0}.ficon61{background-position:-148px -24px}.ficon62{background-position:-148px -48px}.ficon63{background-position:-148px -72px}.ficon64{background-position:-148px -96px}.ficon65{background-position:-148px -120px}.ficon66{background-position:-148px -144px}.ficon67{background-position:-148px -168px}.ficon68{background-position:-148px -192px}.ficon69{background-position:-148px -216px}.ficon70{background-position:-172px 0}.ficon71{background-position:-172px -24px}.ficon72{background-position:-172px -48px}.ficon73{background-position:-172px -72px}.ficon74{background-position:-172px -96px}.ficon75{background-position:-172px -120px}.ficon76{background-position:-172px -144px}.ficon77{background-position:-172px -168px}.ficon78{background-position:-172px -192px}.ficon79{background-position:-172px -216px}.ficon80{background-position:-196px 0}.ficon81{background-position:-196px -24px}.ficon82{background-position:-196px -48px}.ficon83{background-position:-196px -72px}.ficon84{background-position:-196px -96px}.ficon85{background-position:-196px -120px}.ficon86{background-position:-196px -144px}.ficon87{background-position:-196px -168px}.ficon88{background-position:-196px -192px}.ficon89{background-position:-196px -216px}.ficon90{background-position:-220px 0}.ficon91{background-position:-220px -24px}.ficon92{background-position:-220px -48px}.ficon93{background-position:-220px -72px}.ficon94{background-position:-220px -96px}.ficon95{background-position:-220px -120px}.ficon96{background-position:-220px -144px}.ficon97{background-position:-220px -168px}.ficon98{background-position:-220px -192px}.ficon99{background-position:-220px -216px}}.tabs.forumtabs{border-bottom:1px solid #d8d8d8;z-index:0;margin-bottom:-1px}.tabs.forumtabs li{background-color:#f0f0f0}.tabs.forumtabs li:first-child{border-left:1px solid #d8d8d8!important}.tabs.forumtabs li.current a{background-color:#f9f9f9;color:#000}#posts{clear:left}.postbit_wrapper{-moz-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);-webkit-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);-o-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);margin-bottom:15px;clear:left;position:relative}.postbit_wrapper:after{content:'';width:100%;display:block;clear:left}.postbit_wrapper.deleted .post-content-container,.postbit_wrapper.deleted .postbutton-row{display:none}.postbit-anchor{visibility:hidden;position:relative;top:-75px;display:block}.post-head-container{background-color:#f3f3f3;float:left;width:100%;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;-moz-box-shadow:-1px 3px 3px rgba(0,0,0,0.03);-webkit-box-shadow:-1px 3px 3px rgba(0,0,0,0.03);-o-box-shadow:-1px 3px 3px rgba(0,0,0,0.03);box-shadow:-1px 3px 3px rgba(0,0,0,0.03)}.post-head{background:#f3f3f3;line-height:46px!important;color:#a9a9a9;position:relative}.quote{margin:.3em 0 1em;padding:0;border-left:8px solid #d8d8d8;background-color:#f8f8f8}.quote-head{color:#666;background-color:rgba(255,255,255,.4);padding:.6em .6em}.quote-body{padding:.6em .6em}.post-head-left{width:173px;padding-left:10px!important;float:left;border-right:1px solid #d8d8d8;border-left:1px solid #d8d8d8}.post-head-right{border-right:1px solid #d8d8d8;font-size:13px;margin-left:195px}.postbit-social{float:right}.postbit-social a{color:#a9a9a9;line-height:46px;height:46px;text-align:center;width:50px;margin:0;border-left:1px solid #d8d8d8;font-size:22px;display:inline-block;float:right}.chipforum-popup{background:#f9f9f9;color:#454545;border:1px solid #d8d8d8;padding:0;-moz-box-shadow:3px 5px 5px rgba(0,0,0,0.4);-webkit-box-shadow:3px 5px 5px rgba(0,0,0,0.4);-o-box-shadow:3px 5px 5px rgba(0,0,0,0.4);box-shadow:3px 5px 5px rgba(0,0,0,0.4);clip:auto!important;z-index:50;line-height:1em;font-size:15px}.op-tag{background-color:#ffbd2d;color:#fff!important;float:right;position:relative;padding:0 4px;top:-1px;font-weight:900}.pbuser{font-size:13px;padding:7px 0;border-bottom:1px solid #d8d8d8}.pbava{padding-bottom:10px;text-align:center;font-size:26px;color:#ffbd2d;width:100%}.pbava a{width:120px;height:120px;display:block;margin-left:auto;margin-right:auto}.post-content-container{background-color:#fefefe;border-bottom:1px solid #d8d8d8;width:100%;position:relative;display:table;table-layout:fixed;clear:left}.post-onlinestatus{font-family:'Chipico';font-style:normal}.post-status-online:after{color:#0a0;content:'\f058'}.post-status-offline:after{color:#999;content:'\f056'}.post-status-unknown:after{color:#999;content:'\f111'}.postbit-userinfo-cell{width:173px;background-color:#f9f9f9;border-left:1px solid #d8d8d8;padding:5px;display:table-cell}.postbit-userinfo-cell::after,.post-content::after{display:block;position:absolute;height:100%;content:"";background-color:#000}.postbit-content{margin-left:184px;padding:10px 10px;border-left:1px solid #d8d8d8;border-right:1px solid #d8d8d8;width:100%;display:table-cell;vertical-align:top;position:relative}.postbit-content:after{clear:both;content:'';display:table;width:100%;height:1px}.userThanksContainer{font-weight:normal;text-align:left;padding:7px 0;border-bottom:1px solid #d8d8d8;white-space:nowrap}.userThanksInfo{background-color:#d8d8d8;-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;height:8px;display:block;width:170px;margin:3px auto 0;line-height:8px;font-size:8px}.userThanksMeter{background-color:#ffbd2d;display:block;-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;height:8px}.userThanksMeter0{width:0}.userThanksMeter1{width:10%}.userThanksMeter2{width:20%}.userThanksMeter3{width:30%}.userThanksMeter4{width:40%}.userThanksMeter5{width:50%}.userThanksMeter6{width:60%}.userThanksMeter7{width:70%}.userThanksMeter8{width:80%}.userThanksMeter9{width:90%}.userThanksMeter10{width:100%}.postbit-userinfo-cell .userstars-star{border-bottom:1px solid #d8d8d8;padding:3px 0}.userstars-star{margin-top:5px;color:#ffbd2d;font-size:17px;width:100%;font-family:'Chipico'}.userstars-amount-0:after{content:''}.userstars-amount-1:after{content:'\e642'}.userstars-amount-2:after{content:'\e643'}.userstars-amount-3:after{content:'\e643\e642'}.userstars-amount-4:after{content:'\e643\e643'}.userstars-amount-5:after{content:'\e643\e643\e642'}.userstars-amount-6:after{content:'\e643\e643\e643'}.userstars-amount-7:after{content:'\e643\e643\e643\e642'}.userstars-amount-8:after{content:'\e643\e643\e643\e643'}.userstars-amount-9:after{content:'\e643\e643\e643\e643\e642'}.userstars-amount-10:after{content:'\e643\e643\e643\e643\e643'}.postbutton-row{clear:left;background:#eee;background:-moz-linear-gradient(top,rgba(238,238,238,1) 0,rgba(245,245,245,1) 12%,rgba(245,245,245,1) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(238,238,238,1)),color-stop(12%,rgba(245,245,245,1)),color-stop(100%,rgba(245,245,245,1)));background:-webkit-linear-gradient(top,rgba(238,238,238,1) 0,rgba(245,245,245,1) 12%,rgba(245,245,245,1) 100%);background:-o-linear-gradient(top,rgba(238,238,238,1) 0,rgba(245,245,245,1) 12%,rgba(245,245,245,1) 100%);background:-ms-linear-gradient(top,rgba(238,238,238,1) 0,rgba(245,245,245,1) 12%,rgba(245,245,245,1) 100%);background:linear-gradient(to bottom,rgba(238,238,238,1) 0,rgba(245,245,245,1) 12%,rgba(245,245,245,1) 100%);border-bottom:1px solid #d8d8d8;padding:0;height:40px;-moz-box-shadow:0 3px 1px rgba(0,0,0,0.02);-webkit-box-shadow:0 3px 1px rgba(0,0,0,0.02);-o-box-shadow:0 3px 1px rgba(0,0,0,0.02);box-shadow:0 3px 1px rgba(0,0,0,0.02)}.post-left{float:left;border-left:1px solid #d8d8d8}.post-buttons{float:right;border-right:1px solid #d8d8d8}.post-button{border-left:1px solid #d8d8d8;color:#353a3e;padding:10px 15px;font-size:13px;float:right}.post-left a:first-child{border-left:0}.post-button-left{border-right:1px solid #d8d8d8;color:#353a3e;padding:10px 15px;font-size:12px;float:left;text-align:center;line-height:18px;height:20px}a.post-button{color:#727272;padding:10px 15px;line-height:20px}a.post-button-left{color:#727272}.thanksShow{cursor:pointer;background-color:#f9f9f9;border:1px solid #d8d8d8;border-top:0;font-size:.86em;line-height:18px;display:block;padding:5px;color:#727272!important}.thanksNames{background-color:#f9f9f9;border:1px solid #d8d8d8;border-top:0;padding:10px 5px;font-size:.86em}.thanksExpandPhrase{float:right}.post-text{font-size:1.24em;line-height:1.6em;color:#444;padding:.8em .8em;height:100%;font-weight:400;min-height:200px;word-wrap:break-word}.post-text:after{clear:both;content:'';width:100%;display:block}.postbit-content img,.post-text img{max-width:100%!important;height:auto;position:relative}.post-text .inlineimg{line-height:0;position:relative;top:7px;margin-top:-10px}.click-bigger{cursor:pointer}.pbfa{font-size:16px!important;margin-right:5px;position:relative;top:2px}.postbitMultiquoteOn{background-color:#ffbd2d!important;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}.thanksButtonThanked{background-color:#ffbd2d!important}.questionanswered{background-color:#c0ffc0!important;color:#fff}.post-button:hover,.post-button-left:hover{background-color:#727272;color:#f9f9f9;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}.postbit-signature{border-top:1px solid #e8e8e8;margin:12px 0 0 12px;padding:12px 0 0;-ms-word-break:break-all;word-break:break-all;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;font-size:.9em;line-height:1.3em}.postbit-poll,.postbit-question{clear:left;padding-left:10px}.postbit-poll.standalone{margin-bottom:15px;padding-left:0}.postbit-poll fieldset,.postbit-question fieldset{padding:20px 20px;border-radius:4px 4px;border:1px solid #e8e8e8}.postbit-question ul li{width:50%;float:left;font-size:13px;line-height:32px;white-space:nowrap}.postbit-question ul li span{vertical-align:middle;margin-right:4px}.postbit-question ul:after{content:'';clear:both;width:100%;display:block}.postbit-poll .anketsorusu{font-weight:500;display:inline-block}.classicChart{width:100%}.classicChart td{white-space:nowrap}.classicChart tr td:first-child{text-align:right;padding-right:20px}.classicChart .chartList{width:100%}.chartList span{background-color:#00d;color:#fff;display:inline-block;position:relative}.chartList span i{font-style:normal;font-size:1em}.anketsecenek{display:table;line-height:2em;margin:1em 0 2em}.anketsecenek .secenek{display:table-row}.anketChart{min-height:300px}.anketsecenek .secenek span{display:table-cell;vertical-align:middle;line-height:2em}.anketsecenek .secenek input,.anketsecenek .secenek label{margin-right:10px;vertical-align:middle}.postbit-poll fieldset legend{background-color:#ffbd2d;color:#fff;margin-left:0;padding:3px 20px;font-weight:500}.posteditor{border-bottom:1px solid #d8d8d8}.posteditor-container{border-top:1px solid #d8d8d8;position:relative;clear:left;display:table;width:100%}.posteditor-left{display:table-cell;border-left:1px solid #d8d8d8;padding:10px;background-color:#f9f9f9;width:200px}.posteditor-right{display:table-cell;border-right:1px solid #d8d8d8;padding:10px;,}.posteditor-right span.selectcover{line-height:1.8em!important;vertical-align:top}.post-message-area{width:100%;box-sizing:border-box;padding:5px 10px}.postbit-edited{border-top:0 solid #d8d8d8;margin:10px 0 0;padding:5px 0 0;font-style:italic;text-align:right;clear:left}img.smile{vertical-align:middle;margin:-1px 4px 0 4px}.thread-row.unmoderated,.post-head-container.unmoderated,.post-head-container.unmoderated .post-head{background-color:#fefccb}.solved .post-head-container,.solved .post-head{background-color:#d4ffcd}.solved{border-color:#9adf8f!important}.topiciconselect{margin-top:20px;border:1px solid #d8d8d8;padding:10px 10px}.tborder{background-color:#fbfbfb;color:#454545;border:1px solid #d8d8d8;-moz-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);-webkit-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);-o-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);clear:left!important}.content_block{margin-bottom:6px}.topiciconselect:after{clear:both;width:100%;content:'';display:block}.topiciconselect li{float:left;margin-right:4px}.topiciconselect li a{display:inline-block;width:32px;height:32px;text-align:center}.topiciconselect li a:hover{background-color:#ddd}.topiciconselect .selected{background-color:#f90}.filtreList{clear:both;margin-bottom:5px;padding-right:20px}.filtreList li{line-height:2em;display:block;border-bottom:1px dotted #d8d8d8}.filtreList li a{margin-left:20px;display:inline-block}.forumad{display:inline-block;float:right;margin:10px 0 10px 10px;width:300px}.forumad:after{clear:both;content:'';width:100%;display:block}.uye-avatar{width:120px;float:left;margin:8px 8px}#username_box i.chipcon{position:relative;top:2px;left:8px;margin-right:16px;float:left}#main_userinfo{min-height:136px}#main_userinfo h1{font-size:21pt;line-height:20pt;font-family:'Roboto';font-weight:300;margin:17px 10px 0 140px}#main_userinfo h2{font-size:11pt;font-weight:500;margin:5px 0 0 168px}#activity_info{clear:left;margin-left:30px;font-size:10pt}.uyeprofilfoto{margin-top:-128px;margin-bottom:64px;margin-left:auto;width:256px;height:256px;margin-right:auto;position:relative}.uyeprofilfoto img{border:8px solid #eee;border-radius:12px 12px;-moz-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);-webkit-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);-o-box-shadow:0 3px 1px 0 rgba(0,0,0,0.02);box-shadow:0 3px 1px 0 rgba(0,0,0,0.02)}.uyecontentbox{padding:10px 10px}.uyecontentbox .forumImage{max-width:90%}.forumposteditor-subject{width:400px;box-sizing:border-box}@media all and (max-width:640px){.forumposteditor-subject{width:100%}.posteditor-right{padding:10px 5px 10px 0}#forumwrap .gbtnPrimary,#forumwrap .gbtnTertiary{font-size:.86em;padding-left:6px;padding-right:6px}#forumwrap h1{margin-left:0!important}.forumtabs{margin-left:3%;margin-right:3%;width:94%!important}.forumnav{margin-left:3%;margin-right:3%;width:94%!important}.count-cell,.info-cell{display:none!important}.thread-icon-cell{width:24px!important;min-width:24px!important}.forum-childforum-listings,.thread-listing{display:block}.forumbox-row,.thread-row{display:block;clear:both;border-bottom:1px solid #d8d8d8;padding:10px 0 0;width:100%;position:relative}.forumbox-row:hover{background-color:#ebebeb;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}.forumbox-row:hover>DIV{background-color:inherit;-webkit-transition:none;transition:none}.mobile-body.tab-mobile .forumbox-row{margin-top:0!important;padding:0}.mobile-body.tab-mobile .forumbox-row:first-child{border-top:1px solid #d8d8d8}.page-usercp .forumbox-row{background-color:#f9f9f9}.uyeprofilfoto{margin-top:20px}.forumbox-row>DIV,.thread-row>DIV{display:block;border:0;padding:0;text-align:left;width:auto!important;margin:0 10px;vertical-align:middle}.thread-row>DIV{display:table-cell}.mobile-body.tab-mobile .forumbox-row>DIV{margin:0;padding:10px 0}.mobile-body.tab-mobile .forumbox-row .smallfont{display:none}.thread-icon-cell{display:table-cell!important;font-size:16px;min-width:initial!important;max-width:51px!important;width:auto!important;float:left!important;margin:0 2px 0 5px!important;line-height:16px!important}.thread-icon-cell IMG{height:16px;width:16px;margin:0}.threadTitle,.threadTitleUnread{font-size:16px;letter-spacing:-1px}.threadbit-pagelinks{position:relative;top:-3px}.thread-row{padding:7px 0 3px 0;-moz-box-shadow:inset 0 -27px 0 #f3f3f3;-webkit-box-shadow:inset 0 -27px 0 #f3f3f3;-o-box-shadow:inset 0 -27px 0 #f3f3f3;box-shadow:inset 0 -27px 0 #f3f3f3}.thread-row:HOVER{background-color:#ebebeb;-moz-box-shadow:none;-webkit-box-shadow:none;-o-box-shadow:none;box-shadow:none;-webkit-transition:all .15s ease-in-out;transition:all .15s ease-in-out}.thread-row:hover>DIV{background-color:inherit;-webkit-transition:none;transition:none}.forumbox-row .tp{color:inherit}.info-cell{line-height:13px;margin-bottom:0;padding:5px 5px 5px 10px!important;margin:0!important}.forumbox .info-cell{background-color:#f3f3f3}.info-cell DIV{display:inline;margin:0;padding:0}.threadmetaicons{margin-top:0;margin-right:0;position:absolute;right:10px}.mod-cell INPUT{position:absolute;bottom:3px;right:5px}#screenshotViewPane{display:none;visibility:hidden}#forumdevice-righttop{margin-left:5px!important}.forum-row{overflow:visible;height:auto}.forum-row H3{padding:0;width:100%;border:0;line-height:normal;height:initial;text-indent:5px}.forum-row UL{margin:0 0 0 10px;padding:0;display:inline-block}.forum-row UL LI{padding:0}.announcement-usertitle{display:none;visibility:hidden}.post-content-container{padding:10px 0}#showthread-topsearch-text{display:none}.post-content-container,.postbit-content{display:block;position:static;float:left}.postbit-signature{padding:10px}#main_userinfo h2{margin-left:30px}.postbit-userinfo-cell{display:inline;height:1px;padding:0;width:0;border-left:none}.postbit-wrapper{position:relative;border:1px solid #d8d8d8;clear:left}.post-head-container{position:relative;border-top:0}.post-head-left{float:none;width:auto;display:inline-block;border:0;position:relative}.postbit-userinfo-cell .xda-assist-tag,.user-location,.donateButton,.userstars-star{display:none;visibility:hidden}.post-onlinestatus{position:relative;top:-5px;left:-3px}.bigfusername{position:relative;top:-5px}.user-title{position:absolute;top:20px;left:26px;border:0;text-overflow:ellipsis;max-width:195px;overflow:hidden;white-space:nowrap}.user-title-op-tag{left:4px}.user-title-op-tag .op-tag{float:none;padding:0 3px 0}.post-head-right{border-top:1px solid #d8d8d8;margin-left:0;border-right:0;padding-left:10px}.post-head-modtools.post-head-right{line-height:35px!important}.showthread-googleplus,.showthread-facebook,.showthread-twitter{padding:5px}.pbava{display:none;visibility:hidden}.postbit-content{margin-left:0;border:0;width:inherit;padding:0}.userThanksContainer{position:absolute;top:0;right:0;border-bottom:0;text-align:center;border-left:1px solid #d8d8d8;padding:0;width:101px;height:46px}.userThanksText{position:absolute;left:5px;top:12px;z-index:10;font-size:12px;text-align:right;display:inline-block;width:90px}.userThanksInfo{height:20px;margin:13px auto 0;width:95px}.userThanksMeter{height:20px}.user-joindate{display:none}.user-posts{position:absolute;top:20px;right:107px;border-bottom:0}.modtools{position:absolute;left:5px;padding:0;top:24px;line-height:14px!important}.moreInfoButton,.moreUserInfo{display:none;visibility:hidden}.post-left,.post-button-left{float:left}.post-buttons{border-right:0;float:right}A.post-button I{margin:0;line-height:20px}.postbutton-row{white-space:nowrap}A.post-button{border-left:none;border-right:1px solid #d8d8d8;padding:10px 10px;line-height:18px;height:20px}.pbfa{margin-right:0;position:static;top:0}.post-first-post>.a300-250{float:none}.device-image-wrapper{float:none;margin-left:auto;margin-right:auto}.enhanced-header .device-image-wrapper{display:none}div#device_info_wrapper.enhanced-header>div.device-info-wrapper{margin:0}#login-option-controls>a:first-of-type{padding-left:5px}div.showthread-title-buttons{margin-left:3px;margin-bottom:5px}div.page-register{margin-top:55px}div.pagenav{float:left;margin-left:0}#inlinemodcontrol{clear:left;float:left}.showthread-abovebar-controls a,.showthread-belowbar a{margin-bottom:5px}.pagenav A,.pagenav-curpage,.pagenav-disabled{margin-bottom:0}.post-text{padding:.8em .1em}.post-head-container .uyename{font-size:1em;position:relative;top:-6px}.posteditor-left{display:none}.postbit-social a{line-height:46px;height:46px;width:40px;font-size:18px}}@media all and (max-width:1023px){.count-cell{display:none!important}.info-cell{display:none!important}.picon,.post-icon{margin-right:5px}}</style>
+
+</head>
+
+<body> 
+<div id="fb-root"></div>
+
+<div id="mainwrapper" data-name="forum.chip.com.tr">
+
+
+
+<header class="sayfa-header header" id="headernav">
+		<div id="anaheader">
+		<div id="tabMenu"></div>
+		<!-- LOGO -->
+		<div id="chiplogo">
+   		<a href="https://forum.chip.com.tr" title="CHIP Online ana sayfasına gitmek için tıklayın">
+   			<svg xmlns="http://www.w3.org/2000/svg" width="111.87" height="29.812" viewBox="0 0 111.87 29.812">
+            <g transform="translate(-248.7 -341.9)">
+                <path d="M62.99,47.92h3.592A1.107,1.107,0,0,0,67.7,46.844V40.23A2.23,2.23,0,0,0,65.466,38H41.93a2.23,2.23,0,0,0-2.23,2.23V65.569a2.23,2.23,0,0,0,2.23,2.23H65.479a2.23,2.23,0,0,0,2.23-2.23v-6.2a1.115,1.115,0,0,0-1.115-1.115H63a1.115,1.115,0,0,0-1.115,1.115l.013,1.245a1.854,1.854,0,0,1-1.854,1.854H52.525a1.862,1.862,0,0,1-1.854-1.854V54.987l-5.057-5.005V45.093a1.854,1.854,0,0,1,1.854-1.854H60.046A1.854,1.854,0,0,1,61.9,45.093L61.887,46.8a1.1,1.1,0,0,0,1.1,1.115" transform="translate(209 303.913)" fill="#fff"></path>
+                <path d="M325.8,37.913H322.18a1.1,1.1,0,0,0-1.1,1.115v9.907a1.854,1.854,0,0,1-1.854,1.854H306.555a1.876,1.876,0,0,1-1.88-1.854v-9.92a1.138,1.138,0,0,0-1.141-1.115h-3.618a1.115,1.115,0,0,0-1.115,1.115V65.469a2.272,2.272,0,0,0,2.269,2.23h6.5a2.23,2.23,0,0,0,2.23-2.23V57.961l.052-.117a1.773,1.773,0,0,1,1.841-1.751h7.5a1.865,1.865,0,0,1,1.867,1.854v8.61a1.126,1.126,0,0,0,1.128,1.115H325.8a1.115,1.115,0,0,0,1.115-1.115V39.015a1.121,1.121,0,0,0-1.115-1.1" transform="translate(-16.501 304)" fill="#fff"></path>
+                <path d="M566.978,50.047V39.115A1.107,1.107,0,0,0,565.863,38h-3.722A1.137,1.137,0,0,0,561,39.115V65.569a2.208,2.208,0,0,0,2.2,2.23h6.549a2.219,2.219,0,0,0,2.217-2.23V55.078l-4.992-5.031" transform="translate(-244.701 303.913)" fill="#fff"></path>
+                <path d="M710.384,49.671a1.1,1.1,0,0,1-1.1,1.115h-14.1a1.107,1.107,0,0,1-1.115-1.115V44.25a1.107,1.107,0,0,1,1.115-1.115h14.1a1.1,1.1,0,0,1,1.1,1.115v5.42M713.833,38h-23.3a2.23,2.23,0,0,0-2.23,2.23V65.569a2.23,2.23,0,0,0,2.23,2.23h6.587a2.23,2.23,0,0,0,2.23-2.23v-7.6a1.865,1.865,0,0,1,1.867-1.854h12.617a2.23,2.23,0,0,0,2.23-2.23V40.217A2.236,2.236,0,0,0,713.833,38Z" transform="translate(-355.493 303.913)" fill="#fff"></path>
+            </g>
+        </svg>
+   		</a>
+		</div> 
+		<form method="get" action="https://forum.chip.com.tr/ara/" class="aramaboxtop col">
+			<div class="aramabox">
+				<input name="q" id="anaarama" placeholder="CHIP Online'da ara" value="" /><button class="aramaButton" type="submit" value="Ara"></button>
+			</div>
+		</form>
+		<span class="aramamobil"></span>
+		<nav id="anamenu">
+			<div id="mm-menuwrapper">
+			
+
+			<div id="forumMenu" class="menu single menuleft" data-component="touchMenuHover">
+				<a href="https://forum.chip.com.tr/forum/" data-trigger="menu" class="menuBaslik">
+					<span class="default">Forum</span>
+					<span class="alternate" title="Forum"><span class="con-chat3 conico"></span></span></a>
+			<div class="menuWrapper">
+					
+				<nav>
+									
+										<ul class="menuKategoriler" data-all="Tüm Forumlar">
+											<li><a href="/forum/bugun/">CHIP Forum'da Bugün</a></li>
+											<li class="altborder"><a href="/forum/aktifkonular/">Aktif Konular</a></li>
+											<li><a href="/forum/cep-telefonlari-f73/">Cep Telefonları</a></li>
+											<li><a href="/forum/oyunlar-c24/">Oyunlar</a></li>
+											<li><a href="/forum/bilgisayar-bilesenleri-c26/">Bilgisayar Bileşenleri</a></li>
+											<li><a href="/forum/yazilim-c4/">Yazılım</a></li>
+											<li><a href="/forum/isletim-sistemleri-c23/">İşletim Sistemleri</a></li>
+											<li><a href="/forum/test-ve-satin-alma-c25/">Test ve Satın alma</a></li>
+											<li><a href="/forum/chip-life-c13/">CHIP-Life</a></li>
+
+										</ul>
+									
+									
+								</nav>
+							</div>
+			</div>
+			
+			
+				
+		
+		<!---	
+		
+		-->
+			<div id="userMenu" class="menu single menuleft">
+			
+						<a href="#" data-trigger="menu" class="menuBaslik"><span id="user-name" data-user-var="username">Kullanıcı</span>
+						<span class="user-avatar" data-user-var="avatar"></span></a>	
+				
+							<div class="menuWrapper"  data-all="">
+							<nav>
+										<ul class="menuKategoriler" id="usernotloggedin">
+											<li><a href="javascript:void(0)" rel="nofollow" id="link-login">Giriş yap</a></li>
+											<li><a href="https://forum.chip.com.tr/uyeler/kayit.html" rel="nofollow" id="link-kayit">CHIP Online'a katıl</a></li>
+										</ul>
+										<ul class="menuKategoriler" id="userloggedin">
+											<li><a href="javascript:void(0)" rel="nofollow" id="link-user-profil" data-user-var="user-profile">Profilim</a></li>
+											<li><a href="/uyeler/dm/" rel="nofollow">Denetim Masası</a></li>
+											<li><a href="javascript:void(0)" rel="nofollow"  id="link-user-pm" data-user-var="user-pm">Özel Mesajlar</a></li>
+											<li id="logoutline"><a href="javascript:void(0)" rel="nofollow" data-user-var="logout">Çıkış</a></li>
+										</ul>
+								</nav>
+							</div>
+				
+			</div>
+			
+			</div>
+			<div id="submenuwrapper"></div>
+			<div id="submenusubwrapper"></div>
+				
+			
+		</nav>
+		
+</div>
+</header>
+
+
+<div id="wrap">
+
+
+
+<div class="tabmenuback"></div>	
+<div class="container" id="anacontainer">
+
+
+	<div class="ad-sol">
+		<div class="adsol160">
+				<div id='div-gpt-ad-1608633908465-0'>
+		  	<script>
+		  		if (head.desktop) {
+		    		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1608633908465-0'); });
+		    	} 
+		  	</script>
+				</div>			
+		</div>
+			
+	</div> 
+	
+	<div id="canliyayin" class="canlisub"></div>
+
+
+<div class="ad ad728  adspace" style="clear: both; text-align: center"  align="center">
+	
+	 
+		<div class="empower-ad" data-empower-zone="155458"></div>
+	
+	
+
+</div>
+
+<ul class="breadcrumb" itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList"><li  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" ><a href="https://forum.chip.com.tr/" itemprop="item"><span itemprop="name">CHIP Online</span></a><meta itemprop="position" content="1" /></li><li  class="bd"  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" ><a href="https://forum.chip.com.tr/forum/" itemprop="item"><span itemprop="name">Forum</span></a><meta itemprop="position" content="2" /></li><li  class="bd"  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" ><a href="https://forum.chip.com.tr/forum/cep-telefonlari-c18/" itemprop="item"><span itemprop="name">Mobil Cihazlar</span></a><meta itemprop="position" content="3" /></li><li  class="bd"  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" ><a href="https://forum.chip.com.tr/forum/cep-telefonlari-f73/" itemprop="item"><span itemprop="name">Cep Telefonları</span></a><meta itemprop="position" content="4" /></li><li  class="bd"  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" ><a href="https://forum.chip.com.tr/forum/blackberry-f129/" itemprop="item"><span itemprop="name">Blackberry</span></a><meta itemprop="position" content="5" /></li></ul>
+<div id="forumwrap">
+<h1 class="pagetitle">Blackberry</h1>
+
+<p class="pagedescription">Blackberry telefonları için tartışma platformu</p>
+
+<div class="forumnav">
+
+<div class="navpaging"><ul class="pagination pagination-ti"><li class="active"><span>1</span></li><li><a href="https://forum.chip.com.tr/forum/blackberry-f129/2/" title="Blackberry Forumu 2.sayfa">2</a></li><li><a href="https://forum.chip.com.tr/forum/blackberry-f129/2/" rel="next" title="Blackberry Forumu Sonraki sayfa"><span class="chipcon con-angle-double-right"></span></a></li><li><a href="https://forum.chip.com.tr/forum/blackberry-f129/3/" rel="last" title="Blackberry Forumu Son sayfa">…3</a></li></ul></div>
+</div>
+
+
+	
+
+<div class="threadbox boxShadow">
+			<div class="forum-head">
+				
+					
+				<h2 class="forumtitle">Blackberry Forumu</h2>
+			</div>
+			
+			<h4>Önemli Konular</h4>
+			<div class="thread-listing" id="threadbits_forum_sticy_129">
+			
+				<div class="thread-row" id="thread_331301">
+						<div class="thread-icon-cell" id="td_threadstatusicon_331301">
+							<span class="picon forumicon ficon2"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_331301">
+							<div class="threadmetaicons">
+								<i title="Kilitli Konu" class="chipcon con-lock"> </i><i title="Önemli Konu" class="chipcon con-pushpin"> </i>
+						</div>
+						<div class="thread-title-cell">
+							<h3><a class="threadTitle" id="thread_title_331301" href="https://forum.chip.com.tr/forum/chip-online-konu-acma_t331301.html">Chip Online Konu Açma</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-mod">excel_mustafa</span> <span class="time"><strong>03-01-2020</strong>, 19:00</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/chip-online-konu-acma_t331301_1.html">03 Ocak 2020</a> <span class="time">19:00</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-mod">excel_mustafa</span>
+					</div>
+					<div title="Yanıt: 0, Okunma: 431,676"  class="count-cell">
+						Yanıt: 0<br class="responsive-text-hide">Hit: 431,676
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_246286">
+						<div class="thread-icon-cell" id="td_threadstatusicon_246286">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_246286">
+							<div class="threadmetaicons">
+								<i title="Kilitli Konu" class="chipcon con-lock"> </i>
+						</div>
+						<div class="thread-title-cell" title="CHIP Online ailesine ve forumlarına katılabilmek veya CHIP Online Bilgisayar Kursu gibi hizmetlere kayıt için ...">
+							<h3><a class="threadTitle" id="thread_title_246286" href="https://forum.chip.com.tr/forum/chip-online-forum-kurallari_t246286.html">CHIP Online Forum Kuralları</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-admin">Selçuk İslamoğlu</span> <span class="time"><strong>15-07-2012</strong>, 17:18</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/chip-online-forum-kurallari_t246286_1.html">15 Temmuz 2012</a> <span class="time">17:18</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-admin">Selçuk İslamoğlu</span>
+					</div>
+					<div title="Yanıt: 0, Okunma: 570,149"  class="count-cell">
+						Yanıt: 0<br class="responsive-text-hide">Hit: 570,149
+					</div>
+					
+				</div>
+				
+			</div>
+			<h4>Tüm Konular</h4>
+			<div class="thread-listing" id="threadbits_forum_129">
+			
+				<div class="thread-row" id="thread_324157">
+						<div class="thread-icon-cell" id="td_threadstatusicon_324157">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_324157">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell">
+							<h3><a class="threadTitle" id="thread_title_324157" href="https://forum.chip.com.tr/forum/blackberry-priv-hakkinda-ne-dusunuyorsunuz_t324157.html">Blackberry Priv Hakkında Ne Düşünüyorsunuz?</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">AYDIN DENİZ</span> <span class="time"><strong>04-11-2017</strong>, 14:21</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry-priv-hakkinda-ne-dusunuyorsunuz_t324157_1.html">16 Ağustos 2019</a> <span class="time">16:08</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">rıhtım79</span>
+					</div>
+					<div title="Yanıt: 1, Okunma: 16,915"  class="count-cell">
+						Yanıt: 1<br class="responsive-text-hide">Hit: 16,915
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_299696">
+						<div class="thread-icon-cell" id="td_threadstatusicon_299696">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_299696">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="hep kasıp duruyor blackberry">
+							<h3><a class="threadTitle" id="thread_title_299696" href="https://forum.chip.com.tr/forum/blackberry_t299696.html">blackberry</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">muhammet8116</span> <span class="time"><strong>03-03-2015</strong>, 16:24</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry_t299696_1.html">29 Ekim 2016</a> <span class="time">16:24</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">zeynepingo</span>
+					</div>
+					<div title="Yanıt: 1, Okunma: 10,479"  class="count-cell">
+						Yanıt: 1<br class="responsive-text-hide">Hit: 10,479
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_309010">
+						<div class="thread-icon-cell" id="td_threadstatusicon_309010">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_309010">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell">
+							<h3><a class="threadTitle" id="thread_title_309010" href="https://forum.chip.com.tr/forum/blackberry-z10-3gp-mp4-hatasi_t309010.html">blackberry z10 3gp mp4 hatasi</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">at avrat silah</span> <span class="time"><strong>02-03-2016</strong>, 07:14</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry-z10-3gp-mp4-hatasi_t309010_1.html">02 Mart 2016</a> <span class="time">07:14</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">at avrat silah</span>
+					</div>
+					<div title="Yanıt: 0, Okunma: 5,748"  class="count-cell">
+						Yanıt: 0<br class="responsive-text-hide">Hit: 5,748
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_303978">
+						<div class="thread-icon-cell" id="td_threadstatusicon_303978">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_303978">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell">
+							<h3><a class="threadTitle" id="thread_title_303978" href="https://forum.chip.com.tr/forum/blackberry-kaldi-mi-piyasada_t303978.html">BlackBerry kaldı mı piyasada?</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">raziel34</span> <span class="time"><strong>07-10-2015</strong>, 15:23</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry-kaldi-mi-piyasada_t303978_1.html">08 Ekim 2015</a> <span class="time">13:21</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-mod">theironman</span>
+					</div>
+					<div title="Yanıt: 2, Okunma: 6,467"  class="count-cell">
+						Yanıt: 2<br class="responsive-text-hide">Hit: 6,467
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_300064">
+						<div class="thread-icon-cell" id="td_threadstatusicon_300064">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_300064">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="merhaba arkadaşlar okul için emaillerimi okumak ve whatsappta yazışmak üzere blackberry torch 9800 almak istiy...">
+							<h3><a class="threadTitle" id="thread_title_300064" href="https://forum.chip.com.tr/forum/outlook-calistirirmi_t300064.html">outlook çalıştırırmı</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">berkegemen</span> <span class="time"><strong>04-04-2015</strong>, 16:13</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/outlook-calistirirmi_t300064_1.html">05 Nisan 2015</a> <span class="time">16:35</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">badwizard</span>
+					</div>
+					<div title="Yanıt: 3, Okunma: 6,896"  class="count-cell">
+						Yanıt: 3<br class="responsive-text-hide">Hit: 6,896
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_196533">
+						<div class="thread-icon-cell" id="td_threadstatusicon_196533">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_196533">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="niversite öğrencisi olduğum için iş yaşamı açısından sormuyorum LÜTFEN SEÇTİNİZ MARKAYI NEDEN SEÇTİNİZİDE BELİ...">
+							<h3><a class="threadTitle" id="thread_title_196533" href="https://forum.chip.com.tr/forum/blackberrymi-iphone-mu_t196533.html">blackberrymi iphone mu</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">burak31991</span> <span class="time"><strong>19-02-2011</strong>, 18:22</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberrymi-iphone-mu_t196533_1.html">01 Temmuz 2014</a> <span class="time">10:54</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">berko190537</span>
+					</div>
+					<div title="Yanıt: 10, Okunma: 12,671"  class="count-cell">
+						Yanıt: 10<br class="responsive-text-hide">Hit: 12,671
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_289512">
+						<div class="thread-icon-cell" id="td_threadstatusicon_289512">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_289512">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="telefonumu satmak istiyorum sizce ne kadara satmalıyım. alan adam ne kadar fiyat verir yardımcı olursanız sevi...">
+							<h3><a class="threadTitle" id="thread_title_289512" href="https://forum.chip.com.tr/forum/bb-9900-i-satsam_t289512.html">bb 9900 ı satsam ...</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">venceremosads</span> <span class="time"><strong>04-04-2014</strong>, 21:36</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/bb-9900-i-satsam_t289512_1.html">29 Mayıs 2014</a> <span class="time">23:41</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">heathrow</span>
+					</div>
+					<div title="Yanıt: 1, Okunma: 7,323"  class="count-cell">
+						Yanıt: 1<br class="responsive-text-hide">Hit: 7,323
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_287468">
+						<div class="thread-icon-cell" id="td_threadstatusicon_287468">
+							<span class="picon forumicon ficon3"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_287468">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="arkadaslar bb9900 bol almayı düşünüyorum fakat biss paketi yapamayacağım normnal net paketim var bununla bb br...">
+							<h3><a class="threadTitle" id="thread_title_287468" href="https://forum.chip.com.tr/forum/bb-9900-bold-biss-yardim_t287468.html">bb 9900 bold biss yardım</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">rlgndgn7</span> <span class="time"><strong>21-02-2014</strong>, 19:37</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/bb-9900-bold-biss-yardim_t287468_1.html">29 Mayıs 2014</a> <span class="time">23:36</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">heathrow</span>
+					</div>
+					<div title="Yanıt: 1, Okunma: 7,462"  class="count-cell">
+						Yanıt: 1<br class="responsive-text-hide">Hit: 7,462
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_246892">
+						<div class="thread-icon-cell" id="td_threadstatusicon_246892">
+							<span class="picon forumicon ficon3"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_246892">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="Selamlar.Blackberry alıcamda neden bu kadar pahalısamsung'dan Nokia dan LG'den neden o kadar pahalı   
+    Bun...">
+							<h3><a class="threadTitle" id="thread_title_246892" href="https://forum.chip.com.tr/forum/blackberry-neden-pahali-byler-cvp-verin_t246892.html">Blackberry Neden Pahalı Byler??Cvp verin</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">yamux2</span> <span class="time"><strong>22-07-2012</strong>, 18:23</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry-neden-pahali-byler-cvp-verin_t246892_1.html">14 Ekim 2013</a> <span class="time">18:38</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">madiac</span>
+					</div>
+					<div title="Yanıt: 21, Okunma: 25,900"  class="count-cell">
+						Yanıt: 21<br class="responsive-text-hide">Hit: 25,900
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_270617">
+						<div class="thread-icon-cell" id="td_threadstatusicon_270617">
+							<span class="picon forumicon ficon2"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_270617">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="2 telefondan birini almayı dusunuyorum ama kararsız kaldım.
+ Sizce hangisini almalıyım 9900  800 lira 9790 600...">
+							<h3><a class="threadTitle" id="thread_title_270617" href="https://forum.chip.com.tr/forum/bb-bold-9900-vs-9790_t270617.html">BB Bold 9900 vs 9790 ?</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">player458</span> <span class="time"><strong>01-07-2013</strong>, 11:56</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/bb-bold-9900-vs-9790_t270617_1.html">01 Temmuz 2013</a> <span class="time">11:56</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">player458</span>
+					</div>
+					<div title="Yanıt: 0, Okunma: 7,403"  class="count-cell">
+						Yanıt: 0<br class="responsive-text-hide">Hit: 7,403
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_268659">
+						<div class="thread-icon-cell" id="td_threadstatusicon_268659">
+							<span class="picon forumicon ficon2"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_268659">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="Merhabalar
+ Duyduğum bir habere göre Z10 android uygulamalarını çalıştırabiliyormuş. Böyle bir uygulama var mı...">
+							<h3><a class="threadTitle" id="thread_title_268659" href="https://forum.chip.com.tr/forum/blackberry-z10-android-e-uyumlu-mu_t268659.html">Blackberry z10 android'e uyumlu mu?</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">hasan_fb</span> <span class="time"><strong>03-06-2013</strong>, 09:55</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry-z10-android-e-uyumlu-mu_t268659_1.html">03 Haziran 2013</a> <span class="time">09:55</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">hasan_fb</span>
+					</div>
+					<div title="Yanıt: 0, Okunma: 7,378"  class="count-cell">
+						Yanıt: 0<br class="responsive-text-hide">Hit: 7,378
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_241262">
+						<div class="thread-icon-cell" id="td_threadstatusicon_241262">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_241262">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="slm . piyasayı arastırdım genelde bataryalar cok pahalı ve kalıtesız sonra pilburada.comdan bold 9000 bataryas...">
+							<h3><a class="threadTitle" id="thread_title_241262" href="https://forum.chip.com.tr/forum/blackberry-batarya_t241262.html">blackberry batarya</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">kksalbuurak</span> <span class="time"><strong>21-05-2012</strong>, 11:01</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry-batarya_t241262_1.html">12 Nisan 2013</a> <span class="time">12:37</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">geniuss</span>
+					</div>
+					<div title="Yanıt: 1, Okunma: 8,151"  class="count-cell">
+						Yanıt: 1<br class="responsive-text-hide">Hit: 8,151
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_181181">
+						<div class="thread-icon-cell" id="td_threadstatusicon_181181">
+							<span class="picon forumicon ficon8"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_181181">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="Yeni telefon almayı düşünüyorum sizce Iphone mu alayım yoksa BlackBery mi">
+							<h3><a class="threadTitle" id="thread_title_181181" href="https://forum.chip.com.tr/forum/black-berry-mi-iphone-mu_t181181.html">Black Berry mi İphone mu?</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">aligecim</span> <span class="time"><strong>12-10-2010</strong>, 11:09</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/black-berry-mi-iphone-mu_t181181_1.html">17 Mart 2013</a> <span class="time">23:57</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">grezimonk</span>
+					</div>
+					<div title="Yanıt: 8, Okunma: 10,477"  class="count-cell">
+						Yanıt: 8<br class="responsive-text-hide">Hit: 10,477
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_262707">
+						<div class="thread-icon-cell" id="td_threadstatusicon_262707">
+							<span class="picon forumicon ficon4"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_262707">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="Arkadaşlar yeni Blackberry Z10 aldım çok memnunum bu cihazın özellikleriPDA Dokunmatik Bluetooth MP3 3G Görünt...">
+							<h3><a class="threadTitle" id="thread_title_262707" href="https://forum.chip.com.tr/forum/yeni-blackberry-z10-hakkinda-dusunceleriniz-nedir_t262707.html">Yeni Blackberry Z10 hakkında düşünceleriniz nedir?</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">Murat_Tr23</span> <span class="time"><strong>28-02-2013</strong>, 16:29</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/yeni-blackberry-z10-hakkinda-dusunceleriniz-nedir_t262707_1.html">01 Mart 2013</a> <span class="time">10:56</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">Murat_Tr23</span>
+					</div>
+					<div title="Yanıt: 5, Okunma: 9,294"  class="count-cell">
+						Yanıt: 5<br class="responsive-text-hide">Hit: 9,294
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_261760">
+						<div class="thread-icon-cell" id="td_threadstatusicon_261760">
+							<span class="picon forumicon ficon3"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_261760">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="Arkadaşlar ben telefonumu deyiştirmek istiyorum istediğim telefon BlackBerry Curve 9380 piyasada fiyatı nedir ...">
+							<h3><a class="threadTitle" id="thread_title_261760" href="https://forum.chip.com.tr/forum/blackberry-curve-9380-yardim_t261760.html">BlackBerry Curve 9380 Yardım...</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">Kinqlike12</span> <span class="time"><strong>15-02-2013</strong>, 00:57</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry-curve-9380-yardim_t261760_1.html">15 Şubat 2013</a> <span class="time">13:02</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">Qromodynmc</span>
+					</div>
+					<div title="Yanıt: 2, Okunma: 7,539"  class="count-cell">
+						Yanıt: 2<br class="responsive-text-hide">Hit: 7,539
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_261514">
+						<div class="thread-icon-cell" id="td_threadstatusicon_261514">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_261514">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="meraba arkdaşlar bugün blackberry'den messenger uygulamsını ındırdım reset atması gerekiyor dedi reset ata bas...">
+							<h3><a class="threadTitle" id="thread_title_261514" href="https://forum.chip.com.tr/forum/blackberry-acilmiyor-acil-yardim_t261514.html">BlackBerry açılmıyor Acil Yardım</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">onurand2</span> <span class="time"><strong>11-02-2013</strong>, 22:54</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry-acilmiyor-acil-yardim_t261514_1.html">11 Şubat 2013</a> <span class="time">22:54</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">onurand2</span>
+					</div>
+					<div title="Yanıt: 0, Okunma: 8,153"  class="count-cell">
+						Yanıt: 0<br class="responsive-text-hide">Hit: 8,153
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_252456">
+						<div class="thread-icon-cell" id="td_threadstatusicon_252456">
+							<span class="picon forumicon ficon2"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_252456">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="merabalar arkadaslar ben htc hd2 kullanıyorum.dokunmatıkten kopmak ıstemıyorum ama dokunmatıkte yazmak ta ıste...">
+							<h3><a class="threadTitle" id="thread_title_252456" href="https://forum.chip.com.tr/forum/blackberry-torch-gunluk-kunlanim-ve-mesajlajma_t252456.html">blackberry torch gunluk kunlanım ve mesajlajma</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">kratos94</span> <span class="time"><strong>30-09-2012</strong>, 02:31</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry-torch-gunluk-kunlanim-ve-mesajlajma_t252456_1.html">16 Ekim 2012</a> <span class="time">23:31</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">kratos94</span>
+					</div>
+					<div title="Yanıt: 1, Okunma: 7,591"  class="count-cell">
+						Yanıt: 1<br class="responsive-text-hide">Hit: 7,591
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_252772">
+						<div class="thread-icon-cell" id="td_threadstatusicon_252772">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_252772">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="Merhaba arkadaşlar Blackberry Curve 9300 aldım geçen gün fakat telefonu güncelleyemedim çünkü blackberry deskt...">
+							<h3><a class="threadTitle" id="thread_title_252772" href="https://forum.chip.com.tr/forum/blackberry-desktop-hatasi-ss-li_t252772.html">Blackberry Desktop hatası ! ( SS'li )</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">kingsten1</span> <span class="time"><strong>04-10-2012</strong>, 18:48</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry-desktop-hatasi-ss-li_t252772_1.html">04 Ekim 2012</a> <span class="time">18:48</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">kingsten1</span>
+					</div>
+					<div title="Yanıt: 0, Okunma: 7,341"  class="count-cell">
+						Yanıt: 0<br class="responsive-text-hide">Hit: 7,341
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_244325">
+						<div class="thread-icon-cell" id="td_threadstatusicon_244325">
+							<span class="picon forumicon ficon8"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_244325">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="rün satılmıştır">
+							<h3><a class="threadTitle" id="thread_title_244325" href="https://forum.chip.com.tr/forum/urun-satilmistir_t244325.html">Ürün satılmıştır!</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">ekremdavut</span> <span class="time"><strong>26-06-2012</strong>, 15:02</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/urun-satilmistir_t244325_1.html">03 Eylül 2012</a> <span class="time">16:18</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">ekremdavut</span>
+					</div>
+					<div title="Yanıt: 1, Okunma: 7,742"  class="count-cell">
+						Yanıt: 1<br class="responsive-text-hide">Hit: 7,742
+					</div>
+					
+				</div>
+				
+				<div class="thread-row" id="thread_246739">
+						<div class="thread-icon-cell" id="td_threadstatusicon_246739">
+							<span class="picon forumicon ficon0"></span>
+							
+							
+						</div>
+						<div class="thread-info-cell" id="td_threadtitle_246739">
+							<div class="threadmetaicons">
+								
+						</div>
+						<div class="thread-title-cell" title="Merhaba arkadaşlar Blackberry Curve 8520 telefonu dışarıda nete bağlanmak için laptop'a modem gibi bağlamak is...">
+							<h3><a class="threadTitle" id="thread_title_246739" href="https://forum.chip.com.tr/forum/blackberry-curve-8520-modem-olarak-kullanma_t246739.html">Blackberry Curve 8520 Modem Olarak Kullanma</a></h3>
+							
+						</div>
+						<div class="smallfont">Başlatan: <span class="uyename uye-uye">hakanzorbey1</span> <span class="time"><strong>20-07-2012</strong>, 14:59</span></div>
+					</div>
+					<div title="Son Mesaj" class="info-cell">
+						<span class="responsive-text-show">Son Mesaj:</span>
+						<a href="https://forum.chip.com.tr/forum/blackberry-curve-8520-modem-olarak-kullanma_t246739_1.html">20 Temmuz 2012</a> <span class="time">14:59</span>
+						<br class="responsive-text-hide">
+						<span class="uyename uye-uye">hakanzorbey1</span>
+					</div>
+					<div title="Yanıt: 0, Okunma: 11,017"  class="count-cell">
+						Yanıt: 0<br class="responsive-text-hide">Hit: 11,017
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			
+		<div class="forumsort">
+			<div class="fsinfo">
+				Toplam 43 başlıktan 1 - 20 arası gösteriliyor. 
+			</div>
+			<div class="fsform"><form method="get" action="/forum/blackberry-f129/"><span class="selectcover"><select name="sortby">
+							<option value="topic">başlığa göre</option>
+							<option value="author">gönderene göre</option>
+							<option value="replies">yanıt sayısına göre</option>
+							<option value="views">okunma sayısına göre</option>
+						  <option value="lastpost" selected="selected">son mesaja göre</option>
+					</select></span>
+					<span class="selectcover"><select name="sort">
+							  <option value="desc" selected="selected">sondan başa</option>
+								<option value="asc">baştan sona</option>
+					</select></span>
+					<button type="button" onclick="this.form.submit()" class="gbtnTertiary" style="height: 32px; line-height: 30px; vertical-align: middle;">mesajları diz</button>
+				</form>
+			</div>
+		</div>
+		</div>
+	<div class="forumnav">
+
+<div class="navpaging"><ul class="pagination pagination-ti"><li class="active"><span>1</span></li><li><a href="https://forum.chip.com.tr/forum/blackberry-f129/2/" title="Blackberry Forumu 2.sayfa">2</a></li><li><a href="https://forum.chip.com.tr/forum/blackberry-f129/2/" rel="next" title="Blackberry Forumu Sonraki sayfa"><span class="chipcon con-angle-double-right"></span></a></li><li><a href="https://forum.chip.com.tr/forum/blackberry-f129/3/" rel="last" title="Blackberry Forumu Son sayfa">…3</a></li></ul></div>
+</div>
+</div> <!-- Forum wrap -->
+<div id="footerstart" style="clear: left"></div>
+<div class="footerad">
+	
+<div class="ad ad-center ad720 adspace">
+	<div class="ad ad728 ad-center">
+		
+		<div class="empower-ad" data-empower-zone="155466"></div>
+	
+	</div>	
+</div>
+
+
+
+
+</div>
+
+<div class="ad-sag" >
+		<div class="empower-ad" data-empower-zone="155457"></div>
+			
+		
+	</div>
+
+</div> <!-- Container End -->
+
+</div> <!-- Wrap End -->
+
+<footer id="anafooter" class="anafooter" itemscope itemtype="http://schema.org/WPFooter">
+		<div class="topfooter">
+        <a href="https://www.chip.com.tr" class="logo" title="CHIP Online">
+            <svg xmlns="http://www.w3.org/2000/svg" width="228" height="46" viewBox="0 0 228 46">
+                <g transform="translate(-833 -4022)">
+                    <g transform="translate(584.3 3688.1)">
+                        <path d="M62.99,47.92h3.592A1.107,1.107,0,0,0,67.7,46.844V40.23A2.23,2.23,0,0,0,65.466,38H41.93a2.23,2.23,0,0,0-2.23,2.23V65.569a2.23,2.23,0,0,0,2.23,2.23H65.479a2.23,2.23,0,0,0,2.23-2.23v-6.2a1.115,1.115,0,0,0-1.115-1.115H63a1.115,1.115,0,0,0-1.115,1.115l.013,1.245a1.854,1.854,0,0,1-1.854,1.854H52.525a1.862,1.862,0,0,1-1.854-1.854V54.987l-5.057-5.005V45.093a1.854,1.854,0,0,1,1.854-1.854H60.046A1.854,1.854,0,0,1,61.9,45.093L61.887,46.8a1.1,1.1,0,0,0,1.1,1.115" transform="translate(209 303.913)" fill="#eb141b"></path>
+                        <path d="M325.8,37.913H322.18a1.1,1.1,0,0,0-1.1,1.115v9.907a1.854,1.854,0,0,1-1.854,1.854H306.555a1.876,1.876,0,0,1-1.88-1.854v-9.92a1.138,1.138,0,0,0-1.141-1.115h-3.618a1.115,1.115,0,0,0-1.115,1.115V65.469a2.272,2.272,0,0,0,2.269,2.23h6.5a2.23,2.23,0,0,0,2.23-2.23V57.961l.052-.117a1.773,1.773,0,0,1,1.841-1.751h7.5a1.865,1.865,0,0,1,1.867,1.854v8.61a1.126,1.126,0,0,0,1.128,1.115H325.8a1.115,1.115,0,0,0,1.115-1.115V39.015a1.121,1.121,0,0,0-1.115-1.1" transform="translate(-16.501 304)" fill="#eb141b"></path>
+                        <path d="M566.978,50.047V39.115A1.107,1.107,0,0,0,565.863,38h-3.722A1.137,1.137,0,0,0,561,39.115V65.569a2.208,2.208,0,0,0,2.2,2.23h6.549a2.219,2.219,0,0,0,2.217-2.23V55.078l-4.992-5.031" transform="translate(-244.701 303.913)" fill="#eb141b"></path>
+                        <path d="M710.384,49.671a1.1,1.1,0,0,1-1.1,1.115h-14.1a1.107,1.107,0,0,1-1.115-1.115V44.25a1.107,1.107,0,0,1,1.115-1.115h14.1a1.1,1.1,0,0,1,1.1,1.115v5.42M713.833,38h-23.3a2.23,2.23,0,0,0-2.23,2.23V65.569a2.23,2.23,0,0,0,2.23,2.23h6.587a2.23,2.23,0,0,0,2.23-2.23v-7.6a1.865,1.865,0,0,1,1.867-1.854h12.617a2.23,2.23,0,0,0,2.23-2.23V40.217A2.236,2.236,0,0,0,713.833,38Z" transform="translate(-355.493 303.913)" fill="#eb141b"></path>
+                    </g>
+                    <text transform="translate(1013 4057)" fill="#fff" font-size="29" font-family="Helvetica">
+                        <tspan x="-47.536" y="0">Türkiye</tspan>
+                    </text>
+                    <rect width="2" height="46" transform="translate(955 4022)" fill="#707070"></rect>
+                </g>
+            </svg>
+
+        </a>
+        <nav class="hidemobile">
+                            <a href="https://www.chip.com.tr/gizlilik-ilkesi" title="CHIP Online Gizlilik İlkesi" target="_blank" rel="nofollow">Gizlilik İlkesi</a>
+                            <a href="https://www.chip.com.tr/kullanim-sozlesmesi" title="CHIP Online Kullanım Sözleşmesi" target="_blank" rel="nofollow">Kullanım Sözleşmesi</a>
+                            <a href="https://www.chip.com.tr/kisisel-verilerin-korunmasi" title="Kişisel Verilerin Korunması" target="_blank" rel="nofollow">Kişisel Verilerin Korunması</a>
+                            <a href="https://www.chip.com.tr/cerez-politikasi" title="Çerez Politikası" target="_blank" rel="nofollow">Çerez Politikası</a>
+                            <a href="https://www.chip.com.tr/iletisim" title="CHIP Online İletişim" target="_blank" rel="nofollow">İletişim</a>
+                            <a href="https://www.chip.com.tr/kunye" title="CHIP Online Künye" target="_blank" rel="nofollow">Künye</a>
+                            <a href="#" class="nav-link efl-edit">Çerez Seçimini Sıfırla</a>
+                    </nav>
+        <span>Cep Telefonu İncelemeleri, <br>Bilişim ve Teknoloji Haberleri CHIP Online’da!</span>
+    </div>
+		<div class="footer">
+			<span class="copyright">© <span itemprop="copyrightYear">2025</span> <span itemprop="copyrightHolder">Doğan Burda Dergi Yayıncılık ve Pazarlama A.Ş.</span> / Tüm hakları saklıdır. </span>
+		</div>
+		
+</footer>
+
+</div>
+
+
+
+<script>
+	
+	
+
+	head.ready("jquery", function() {
+			jQuery.cachedScript = function( url, options ) {
+ 
+  // Allow user to set any option except for dataType, cache, and url
+  options = $.extend( options || {}, {
+    dataType: "script",
+    cache: true,
+    url: url
+  });
+ 
+  // Use $.ajax() since it is more flexible than $.getScript
+  // Return the jqXHR object so we can chain callbacks
+  return jQuery.ajax( options );
+};
+		
+});
+
+</script>
+	
+
+	
+
+	<script>
+
+	
+ var fadinterval = '';
+
+ 	
+ 	//chipScriptList.push();
+ 	
+ if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/service-worker.js');
+  });
+}
+ 
+	head.test({
+		test: (head.browser.ie && head.browser.version < 9),
+		success: [{ 'jquery': 'https://code.jquery.com/jquery-3.4.1.min.js' },'//forum.chip.com.tr/js/lt-ie9.js','//forum.chip.com.tr/js/lt-ie9.js','//forum.chip.com.tr/js/selectivizr-min.js'],
+		failure: [{ 'jquery': '//forum.chip.com.tr/js/jquery-3.4.1.min.js' }],
+		callback: function() {
+		  
+			head.ready("jquery", function() {
+				if (typeof nextPages == 'object' && head.mobile == true) {
+					$('.hepsiburada.yatay').remove();
+					// chipvars.rf = false;
+					$('.npnews').remove();
+					$('#comments').remove();
+					$('#dailyvid').remove();
+				//	$('.nores').remove();
+					
+					//chipvars.rf = false;
+				}
+				
+				$(document).on("mobileinit", function () {
+			   //   $.mobile.autoInitializePage = false;
+			    });
+
+				
+				/* 
+				if ($('.moveinline').length > 0 && $('.inlinead300').length > 0 && screen.width > 960) {
+									$('.moveinline').eq(0).appendTo($('.inlinead300').eq(0).addClass('inlineadd300add'));
+				}
+				
+				if ($('.moveinlinemobile').length > 0 && $('.inlinead300x2').length > 0 && screen.width < 640) {
+						$('.moveinlinemobile').eq(0).appendTo($('.inlinead300x2').eq(0).addClass('inlineadd300add'));
+				}
+				*/
+				
+				
+    		head.load(chipScriptList);
+				
+
+				
+				
+				
+				head.ready('ads', function() {
+						if (chipvars.abact==true) {	
+								
+					
+						}
+					});
+				
+					
+				
+				
+
+				
+		function isVisible( target ) {
+				if ( target instanceof jQuery ) {
+					target = target[ 0 ];
+				}
+
+				var rect = target.getBoundingClientRect();
+
+				return rect.bottom > 0 &&
+					rect.right > 0 &&
+					rect.left < ( window.innerWidth || document.documentElement.clientWidth ) &&
+					rect.top < ( window.innerHeight || document.documentElement.clientHeight );
+			}
+			
+			function isVisible2Load( target , distance ) {
+				if ( target instanceof jQuery ) {
+					target = target[ 0 ];
+				}
+
+				var rect = target.getBoundingClientRect();
+
+				return rect.bottom > 0 &&
+					rect.right > 0 &&
+					rect.left < ( window.innerWidth || document.documentElement.clientWidth ) &&
+					rect.top-distance < ( window.innerHeight || document.documentElement.clientHeight );
+			}
+			
+			window.articleRoofLine = Math.ceil( window.innerHeight * 0.4 );
+			window.articlesiteFloor = $('#pageend');
+			
+      
+				
+				var stateObj = { };
+				window.currentWindowURL = window.location.href;
+				window.calculating = false;
+				if (typeof nextPages == 'object' && head.mobile) {
+							head.ready('chipessentials', function(){
+							$(window).scroll( function() {	
+								if (window.fetchingNext !== 'fetching') {
+			      	
+									if (isVisible2Load($('#pageend'),2000)) {
+										for (var i=0;i<nextPages.length;i++) {
+											if (nextPages[i].processed !== true) {
+												
+												var itemnum = i;
+												break;
+											}
+										}
+										window.fetchingNext = 'fetching';
+										
+										loadNextArticle(itemnum)
+										
+										
+									} 
+								}
+							});
+								
+								
+							$(window).scroll( $.debounce( 500, function() {
+								if (window.calculating !== true) {
+								window.calculating = true;
+								window.articleRoofLine = Math.ceil( window.innerHeight * 0.4 );
+								$.each( $('article.anaArticle'), function(i,article) {
+									
+									var scrollTop = $( window ).scrollTop();
+									var articleOffset = Math.floor( article.offsetTop - scrollTop );
+										
+									if ( articleOffset > window.articleRoofLine ) {
+										return;
+									}
+									var floorLine = ( article.clientHeight - ( window.articlesiteFloor * 1.2 ) );
+										 floorLine = Math.floor( floorLine * -1 );
+
+									if ( articleOffset < floorLine ) {
+										return;
+									}
+									
+									var articleURL = $(article).data("url");
+									
+									if ( window.currentWindowURL.toLowerCase() == articleURL.toLowerCase() ) {
+										return;
+									} else {
+										if (isVisible( $(this) )) {
+											var articleTitle = $(article).data("title");
+											history.replaceState(null, articleTitle, articleURL );
+											
+											window.currentWindowURL = articleURL
+											ga('set', 'page',  articleURL);
+
+											gtag('config', '', {
+												'page_title' : articleTitle,
+												'page_location': articleURL,
+												send_page_view: true
+											});
+																		    	
+											console.log(articleURL + ' changed');
+											return;
+										}
+									}
+								
+									
+								});
+								window.calculating = false;
+							}
+							
+						}));
+						});
+   }
+   
+ 
+   
+   
+   function loadNextArticle(itemnum) {
+   	window.fetchingNext = 'fetching';
+   	var newart = $('<div id="pageitems' + itemnum + '" class="pageitem"></div>');
+
+   	
+   	googletag.cmd.push(function() {
+   	if (head.desktop) {
+   		var slot = googletag.defineSlot('/21852615636,21889168872/Chip.com.tr/bond_desktop_ros_970x250_top', [[728, 90], [750, 200], [970, 66], [980, 90], [950, 90], [970, 250], [930, 180], [970, 90], [750, 100], [960, 90], 'fluid'])
+    		      .setTargeting('test', 'infinitescroll')
+              .addService(googletag.pubads());
+              
+              
+              
+            $('<div class="ad ad300 adspace"><div id="' + slot.getSlotElementId() + '"></div></div>').insertBefore($('#pageend'));
+         		googletag.display(slot);
+              
+  	} else {
+  		var slot = googletag.defineSlot('/21852615636,21889168872/Chip.com.tr/bond_mobile_ros_320x100', [[300, 50], [320, 100], [320, 50], [300, 31], [300, 75], 'fluid', [300, 100]])
+    		      .setTargeting('infinitescroll')
+              .addService(googletag.pubads());
+              
+              $('<div class="ad ad728 adspace"><div id="' + slot.getSlotElementId() + '"></div></div>').insertBefore($('#pageend'));
+        			googletag.display(slot);
+	  }
+	  });
+    
+         
+          
+   
+   	
+   	
+  
+   	
+   		$(newart).insertBefore($('#pageend'));
+   		
+   				$('#pageitems' + itemnum).load(nextPages[itemnum].address + ' .anaArticle:eq(0)', {} , function() {
+							newart.data("url",nextPages[itemnum].address);
+							newart.data("title",nextPages[itemnum].title + ' - CHIP Online');
+							
+							
+							
+					   	googletag.cmd.push(function() {
+					   	if (head.desktop) {
+					   		var slot2 = googletag.defineSlot('/21852615636,21889168872/Chip.com.tr/bond_desktop_ros_970x250_top', [[728, 90], [750, 200], [970, 66], [980, 90], [950, 90], [970, 250], [930, 180], [970, 90], [750, 100], [960, 90], 'fluid'])
+					    		      .setTargeting('test', 'infinitescroll')
+					              .addService(googletag.pubads());
+					              
+					            $('<div class="ad ad300  adspace"><div id="' + slot.getSlotElementId() + '"></div></div>').appendTo($('#pageitems' + itemnum  + ' .inlinead300' ));
+					         	googletag.display(slot);
+					              
+					  	} else {
+					  		var slot2 = googletag.defineSlot('/21852615636,21889168872/Chip.com.tr/bond_mobile_ros_320x100', [[300, 50], [320, 100], [320, 50], [300, 31], [300, 75], 'fluid', [300, 100]])
+					    		      .setTargeting('test', 'infinitescroll')
+					              .addService(googletag.pubads());
+					              
+					              $('<div class="ad ad300  adspace"><div id="' + slot2.getSlotElementId() + '"></div></div>').appendTo($('#pageitems' + itemnum  + ' .inlinead300' ));
+					              googletag.display(slot2);
+					        
+						  }
+						  });
+							
+							
+	   					$(this).find('.carouselWrap').remove();
+	   					
+	   					// $(".carouselWrap").not("[data-carouseled='done']").doCarousels();
+							$("figure.image-havebig").not("[data-click2enlarge='done']").click2enlarge();
+							$('span.extiframe').not('[data-iframe="done"]').doIframe();
+							$('.paylas').doshare();
+							/* $(this).find('.remove2nd').remove(); */
+							$(this).find('.chipcropy').remove();
+							 $(this).find('.npnews').remove();
+							 $(this).find('.nativealt').remove();
+							 $(this).find('.nores').remove();
+							 $('.share_ver').doSticky();
+							 $(".lazy").lazyload({
+					        attribute: "data-original",
+					        removeAttribute: true,
+					        threshold: 1000,
+					        enableThrottle: true,
+					        enableQueueing: true,
+					        effect: "fadeIn",
+					        effectTime: 'slow'
+					    });
+					    
+					    $(".lazybg").lazyload({
+				        attribute: "data-original",
+				        removeAttribute: true,
+				        threshold: 1460,
+				        enableQueueing: true,
+				        enableThrottle: true,
+				        skip_invisible : false
+				    });
+				    
+				    head.ready('addthishelper', function(){
+				    	console.log('addthishelper loaded');
+				    	window.addthis_new_tool(); 	
+				    });
+				    
+				    	
+				    	nextPages[itemnum].processed = true;
+				    	window.fetchingNext = '';
+						});
+   	
+   }
+				
+				
+				
+				
+				
+				
+	  		
+
+			});
+		}
+	});
+
+	
+	</script>
+
+
+	</body>
+</html>

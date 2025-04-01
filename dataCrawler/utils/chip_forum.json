@@ -1,0 +1,682 @@
+[
+    {
+        "name": "Cep Telefonları",
+        "link": "https://forum.chip.com.tr/forum/cep-telefonlari-f73/",
+        "description": "Cep Telefonları ile ilgili tartışma bölümü",
+        "subforums": [
+            {
+                "name": "Samsung",
+                "link": "https://forum.chip.com.tr/forum/samsung-f69/"
+            },
+            {
+                "name": "iPhone",
+                "link": "https://forum.chip.com.tr/forum/iphone-f126/"
+            },
+            {
+                "name": "Nokia",
+                "link": "https://forum.chip.com.tr/forum/nokia-f67/"
+            },
+            {
+                "name": "Sony Ericsson",
+                "link": "https://forum.chip.com.tr/forum/sony-ericsson-f68/"
+            },
+            {
+                "name": "HTC",
+                "link": "https://forum.chip.com.tr/forum/htc-f127/"
+            },
+            {
+                "name": "Motorola",
+                "link": "https://forum.chip.com.tr/forum/motorola-f70/"
+            },
+            {
+                "name": "Blackberry",
+                "link": "https://forum.chip.com.tr/forum/blackberry-f129/"
+            },
+            {
+                "name": "LG",
+                "link": "https://forum.chip.com.tr/forum/lg-f128/"
+            },
+            {
+                "name": "Huawei",
+                "link": "https://forum.chip.com.tr/forum/huawei-f167/"
+            },
+            {
+                "name": "General Mobile",
+                "link": "https://forum.chip.com.tr/forum/general-mobile-f166/"
+            }
+        ]
+    },
+    {
+        "name": "Tablet",
+        "link": "https://forum.chip.com.tr/forum/tablet-f168/",
+        "description": "Tüm tabletlerle ilgili konular",
+        "subforums": [
+            {
+                "name": "iPad",
+                "link": "https://forum.chip.com.tr/forum/ipad-f169/"
+            },
+            {
+                "name": "Android Tabletler",
+                "link": "https://forum.chip.com.tr/forum/android-tabletler-f171/"
+            },
+            {
+                "name": "Windows RT Tabletler",
+                "link": "https://forum.chip.com.tr/forum/windows-rt-tabletler-f170/"
+            },
+            {
+                "name": "Diğer Tablet",
+                "link": "https://forum.chip.com.tr/forum/diger-tablet-f172/"
+            }
+        ]
+    },
+    {
+        "name": "Genel Symbian",
+        "link": "https://forum.chip.com.tr/forum/genel-symbian-f71/",
+        "description": "Symbian sistemlerle ilgili genel tartışma forumu",
+        "subforums": []
+    },
+    {
+        "name": "Genel Windows Mobile",
+        "link": "https://forum.chip.com.tr/forum/genel-windows-mobile-f72/",
+        "description": "Windows Mobile sistemlerle ilgili genel tartışma forumu",
+        "subforums": []
+    },
+    {
+        "name": "Otomobil",
+        "link": "https://forum.chip.com.tr/forum/otomobil-f92/",
+        "description": "Otomobiller. Çağdaş yaşamın vazgeçilmez tutkusu. Otomobiller hakkında her şeyi burada tartışıyoruz...",
+        "subforums": []
+    },
+    {
+        "name": "Diğer Konu Dışı",
+        "link": "https://forum.chip.com.tr/forum/diger-konu-disi-f53/",
+        "description": "CHIP, Teknoloji, Bilişim ve İnternet dünyası dışındaki serbest kürsünüz",
+        "subforums": []
+    },
+    {
+        "name": "Sinema, TV, DVD-Bluray",
+        "link": "https://forum.chip.com.tr/forum/sinema-tv-dvd-bluray-f86/",
+        "description": "Sinema ve Filmlerle, Televizyon ve dizilerle ilgili sohbetler",
+        "subforums": []
+    },
+    {
+        "name": "Müzik",
+        "link": "https://forum.chip.com.tr/forum/muzik-f85/",
+        "description": "Müzikle ilgilenenlerin yeni yeri",
+        "subforums": []
+    },
+    {
+        "name": "Kitap",
+        "link": "https://forum.chip.com.tr/forum/kitap-f88/",
+        "description": "Yeni kitaplığınız",
+        "subforums": []
+    },
+    {
+        "name": "Spor",
+        "link": "https://forum.chip.com.tr/forum/spor-f89/",
+        "description": "Spor ve Spor olayları yerlerini burada bulsun",
+        "subforums": []
+    },
+    {
+        "name": "Eğlence",
+        "link": "https://forum.chip.com.tr/forum/eglence-f90/",
+        "description": "Komiklikler, fıkralar hep bu eğlence bölümünde",
+        "subforums": []
+    },
+    {
+        "name": "Motor dünyası",
+        "link": "https://forum.chip.com.tr/forum/motor-dunyasi-f93/",
+        "description": "Mobil hayatın en uç noktası. Adrenalin ve macera. Motorcular burada...",
+        "subforums": []
+    },
+    {
+        "name": "Genel Fotoğrafçılık",
+        "link": "https://forum.chip.com.tr/forum/genel-fotografcilik-f75/",
+        "description": "Genel Fotoğrafçılık ve Teknikleri üzerine tartışma forumu",
+        "subforums": []
+    },
+    {
+        "name": "Video Bookmark",
+        "link": "https://forum.chip.com.tr/forum/video-bookmark-f62/",
+        "description": "Bu bölüme internet üzerindeki sevdiğiniz beğendiniz videoları koyabilirsiniz.",
+        "subforums": []
+    },
+    {
+        "name": "Anime, Manga ve Animasyon",
+        "link": "https://forum.chip.com.tr/forum/anime-manga-animasyon-f114/",
+        "description": "Tüm animasyon ve çizgi diziler hakkında tartışma ve tanıtım forumu",
+        "subforums": []
+    },
+    {
+        "name": "Okur Haberleri",
+        "link": "https://forum.chip.com.tr/forum/okur-haberleri-f81/",
+        "description": "Bu kategoride üyelerimizden gelen teknoloji haberlerine yer veriyoruz.",
+        "subforums": []
+    },
+    {
+        "name": "Okur İpuçları",
+        "link": "https://forum.chip.com.tr/forum/okur-ipuclari-f105/",
+        "description": "CHIP Online üyeleri burada kendi ipuçlarını paylaşabilirler.",
+        "subforums": []
+    },
+    {
+        "name": "Günün Tam Sürümü",
+        "link": "https://forum.chip.com.tr/forum/gunun-tam-surumu-f121/",
+        "description": "Günün Tam Sürüm yazılımı ile ilgili yorumlar",
+        "subforums": []
+    },
+    {
+        "name": "CHIP Online Makaleler",
+        "link": "https://forum.chip.com.tr/forum/chip-online-makaleler-f96/",
+        "description": "CHIP Online Makaleleri için fikir alışverişi platformu",
+        "subforums": []
+    },
+    {
+        "name": "CHIP Online Haber",
+        "link": "https://forum.chip.com.tr/forum/chip-online-haber-f95/",
+        "description": "Burada CHIP Online haberlerini bulabilir ve tartışabilirsiniz.",
+        "subforums": []
+    },
+    {
+        "name": "CHIP TV",
+        "link": "https://forum.chip.com.tr/forum/chip-tv-f117/",
+        "description": "CHIP TV, Videolar, Fragmanlar ve Oyunlar. Hepsi burada",
+        "subforums": []
+    },
+    {
+        "name": "Windows 11",
+        "link": "https://forum.chip.com.tr/forum/windows-11-f184/",
+        "description": "Windows 11 ile ilgili hersey",
+        "subforums": []
+    },
+    {
+        "name": "Windows 10",
+        "link": "https://forum.chip.com.tr/forum/windows-10-f182/",
+        "description": "Windows 10 ile ilgili tüm başlıklar",
+        "subforums": []
+    },
+    {
+        "name": "Windows 8",
+        "link": "https://forum.chip.com.tr/forum/windows-8-f160/",
+        "description": "Windows 8 ve Windows 8.1 ile ilgili deneyimlerinizi burada paylaşın",
+        "subforums": []
+    },
+    {
+        "name": "Windows 7",
+        "link": "https://forum.chip.com.tr/forum/windows-7-f107/",
+        "description": "Windows 7 ile ilgili sorunlar/paylaşımlar",
+        "subforums": []
+    },
+    {
+        "name": "Windows Vista",
+        "link": "https://forum.chip.com.tr/forum/windows-vista-f61/",
+        "description": "Windows Vista ile ilgili sorular / sorunlar",
+        "subforums": []
+    },
+    {
+        "name": "Windows Server",
+        "link": "https://forum.chip.com.tr/forum/windows-server-f11/",
+        "description": "Windows Server ailesi ile ilgili her türlü sorun, çözüm ve tartışma alanı.",
+        "subforums": []
+    },
+    {
+        "name": "Eski Windows Sistemleri",
+        "link": "https://forum.chip.com.tr/forum/eski-windows-sistemleri-f10/",
+        "description": "Eski Windows İşletim sistemleriyle ilgili mesajlarınızı buraya gönderebilirsiniz.",
+        "subforums": []
+    },
+    {
+        "name": "Linux",
+        "link": "https://forum.chip.com.tr/forum/linux-f12/",
+        "description": "Linux ile ilgili her türlü sorun, çözüm ve tartışma alanı.",
+        "subforums": []
+    },
+    {
+        "name": "Mac OS",
+        "link": "https://forum.chip.com.tr/forum/mac-os-f97/",
+        "description": "CTRL+ALT+DELETE bilmeyenler buraya. MacOS hakkındaki sorular ve yanıtlar",
+        "subforums": []
+    },
+    {
+        "name": "Pardus",
+        "link": "https://forum.chip.com.tr/forum/pardus-f66/",
+        "description": "Pardus  ile ilgili her türlü sorun, çözüm ve tartışma alanı.",
+        "subforums": []
+    },
+    {
+        "name": "Diğer İşletim Sistemleri",
+        "link": "https://forum.chip.com.tr/forum/diger-isletim-sistemleri-f103/",
+        "description": "Mazilerde kalanlar ve diğer işletim sistemleri",
+        "subforums": []
+    },
+    {
+        "name": "Genel Oyunlar",
+        "link": "https://forum.chip.com.tr/forum/genel-oyunlar-f35/",
+        "description": "Bütün oyun türleri hakkında sorun, çözüm ve görüşlerinizi bu alanda paylaşabilirsiniz.",
+        "subforums": []
+    },
+    {
+        "name": "Konsol Oyunları",
+        "link": "https://forum.chip.com.tr/forum/konsol-oyunlari-f98/",
+        "description": "XBox, PlayStation, Wii oyunları buraya...",
+        "subforums": []
+    },
+    {
+        "name": "PSP, Nintendo DS",
+        "link": "https://forum.chip.com.tr/forum/psp-nintendo-ds-f123/",
+        "description": "PSP ve Nintendo DS oyunları hakkında tartışmalar ve sorunlar",
+        "subforums": []
+    },
+    {
+        "name": "MMO (Devasa Online)",
+        "link": "https://forum.chip.com.tr/forum/mmo-devasa-online-f124/",
+        "description": "Tüm MMORPG ve Devasa Online Oyunlar hakkında",
+        "subforums": []
+    },
+    {
+        "name": "Online Oyunlar",
+        "link": "https://forum.chip.com.tr/forum/online-oyunlar-f125/",
+        "description": "MMO olmayan tüm Online Oyunlar hakkında...",
+        "subforums": []
+    },
+    {
+        "name": "Masaüstü Bilgisayarlar",
+        "link": "https://forum.chip.com.tr/forum/masaustu-bilgisayarlar-f122/",
+        "description": "Masaüstü Bilgisayar Sistemleri ve iç parçalar...",
+        "subforums": []
+    },
+    {
+        "name": "Dizüstü ve Netbook",
+        "link": "https://forum.chip.com.tr/forum/dizustu-netbook-f79/",
+        "description": "Tüm dizüstü, netbook, tablet ve ultra taşınabilir bilgisayardaki sorularınız",
+        "subforums": []
+    },
+    {
+        "name": "Yazıcılar ve Tarayıcılar",
+        "link": "https://forum.chip.com.tr/forum/yazicilar-tarayicilar-f130/",
+        "description": "Mürekkep Püskürtmeli (Inkjet), Lazer Yazıcılar ve Tarayıcılar (Scanner) ve çok amaçlı aygıtlar",
+        "subforums": []
+    },
+    {
+        "name": "Ev Sineması ve Ses Sistemleri",
+        "link": "https://forum.chip.com.tr/forum/ev-sinemasi-ses-sistemleri-f131/",
+        "description": "Tüm Hometheater ve ses düzenleri",
+        "subforums": []
+    },
+    {
+        "name": "LED TV, LCD TV ve Monitörler",
+        "link": "https://forum.chip.com.tr/forum/led-tv-lcd-tv-monitorler-f132/",
+        "description": "Tüm Flat televizyon ve monitörler",
+        "subforums": []
+    },
+    {
+        "name": "Dijital Fotoğraf Makineleri",
+        "link": "https://forum.chip.com.tr/forum/dijital-fotograf-makineleri-f41/",
+        "description": "Dijital fotoğraf makineleri ve kameralar",
+        "subforums": []
+    },
+    {
+        "name": "MP3 Player, iPod",
+        "link": "https://forum.chip.com.tr/forum/mp3-player-ipod-f135/",
+        "description": "Tüm MP3 Oynatıcılar ve iPod türevleri",
+        "subforums": []
+    },
+    {
+        "name": "Navigasyon ve Rota Planlama",
+        "link": "https://forum.chip.com.tr/forum/navigasyon-rota-planlama-f133/",
+        "description": "Tüm Navigasyon ve Rota planlama sistemleri ve aygıtları",
+        "subforums": []
+    },
+    {
+        "name": "İş Donanım ve Yazılımları",
+        "link": "https://forum.chip.com.tr/forum/is-donanim-yazilimlari-f134/",
+        "description": "Sektörel donanım ve yazılımları",
+        "subforums": []
+    },
+    {
+        "name": "İkinci El Alım-Satım",
+        "link": "https://forum.chip.com.tr/forum/ikinci-el-alim-satim-f59/",
+        "description": "İkinci el ürün alım ve satım için okur buluşma merkezi",
+        "subforums": []
+    },
+    {
+        "name": "İşlemci, Anakart, Bellek",
+        "link": "https://forum.chip.com.tr/forum/islemci-anakart-bellek-f136/",
+        "description": "Tüm İşlemciler, Anakartlar ve RAM'ler ile ilgili...",
+        "subforums": []
+    },
+    {
+        "name": "Ekran Kartları",
+        "link": "https://forum.chip.com.tr/forum/ekran-kartlari-f137/",
+        "description": "Tüm, nVidia, AMD ATI ve diğer ekran kartları ile ilgili sorunlar ve çözümler",
+        "subforums": []
+    },
+    {
+        "name": "Kasalar ve Güç Kaynakları",
+        "link": "https://forum.chip.com.tr/forum/kasalar-guc-kaynaklari-f140/",
+        "description": "PC Kasaları ve Güç kaynakları",
+        "subforums": []
+    },
+    {
+        "name": "Sabit Diskler, SSD, Flash Bellek",
+        "link": "https://forum.chip.com.tr/forum/sabit-diskler-ssd-flash-bellek-f139/",
+        "description": "Tüm Sabit Disk, Flash Diskler ve USB Bellekler",
+        "subforums": []
+    },
+    {
+        "name": "Ses Kartları",
+        "link": "https://forum.chip.com.tr/forum/ses-kartlari-f138/",
+        "description": "Ses Kartları ve Ses Donanımları ile ilgili sorunlar ve çözümler",
+        "subforums": []
+    },
+    {
+        "name": "Yeni Başlayanlar için Donanım",
+        "link": "https://forum.chip.com.tr/forum/yeni-baslayanlar-icin-donanim-f141/",
+        "description": "Yeni Başlayanlar için Donanım",
+        "subforums": []
+    },
+    {
+        "name": "Donanım Sürücüleri",
+        "link": "https://forum.chip.com.tr/forum/donanim-suruculeri-f18/",
+        "description": "Donanım sürücüleri ile ilgi her türlü sorun, çözüm ve tartışma alanı.",
+        "subforums": []
+    },
+    {
+        "name": "Kablolu ve Kablosuz Ağlar",
+        "link": "https://forum.chip.com.tr/forum/kablolu-kablosuz-aglar-f142/",
+        "description": "Ağ problemleri",
+        "subforums": []
+    },
+    {
+        "name": "Konsol Donanım",
+        "link": "https://forum.chip.com.tr/forum/konsol-donanim-f99/",
+        "description": "XBox, PlayStation, Wii Sorunları ise buraya...",
+        "subforums": []
+    },
+    {
+        "name": "PC Upgrade",
+        "link": "https://forum.chip.com.tr/forum/pc-upgrade-f143/",
+        "description": "PC Yükseltme ve Donanım sorunları",
+        "subforums": []
+    },
+    {
+        "name": "Modem, Router",
+        "link": "https://forum.chip.com.tr/forum/modem-router-f17/",
+        "description": "Modem ve Ethernet Kartları, Swich, Hub vs. gibi network donanımları ile ilgili her türlü sorun, çözüm ve tartışma alanı.",
+        "subforums": []
+    },
+    {
+        "name": "Overclock ve Soğutma",
+        "link": "https://forum.chip.com.tr/forum/overclock-sogutma-f42/",
+        "description": "Overclock, Soğutma ve Moddingle ilgili başlıklar",
+        "subforums": []
+    },
+    {
+        "name": "Mobil Aygıtlar",
+        "link": "https://forum.chip.com.tr/forum/mobil-aygitlar-f43/",
+        "description": "Cep telefonları, El bilgisayarları vb.",
+        "subforums": []
+    },
+    {
+        "name": "Disk Bölümleme ve Format",
+        "link": "https://forum.chip.com.tr/forum/disk-bolumleme-format-f144/",
+        "description": "Disk Bölümleme ve Biçimlendirme problemleri",
+        "subforums": []
+    },
+    {
+        "name": "Ev yapımı Donanımlar",
+        "link": "https://forum.chip.com.tr/forum/ev-yapimi-donanimlar-f145/",
+        "description": "Tüm ev yapımı / Hazır olmayan donanımlar ve elektronik",
+        "subforums": []
+    },
+    {
+        "name": "Donanım Diğer",
+        "link": "https://forum.chip.com.tr/forum/donanim-diger-f19/",
+        "description": "Diğer donanımlar ile ilgili sorun, çözüm ve görüşlerinizi bu bölümde paylaşabilirsiniz.",
+        "subforums": []
+    },
+    {
+        "name": "Fare, Klavye ve Kontrol Cihazları",
+        "link": "https://forum.chip.com.tr/forum/fare-klavye-kontrol-cihazlari-f146/",
+        "description": "Tüm Fare, Trackball, Touchpad, Klavye, Joystick ve Gamepadler",
+        "subforums": []
+    },
+    {
+        "name": "Hi-Tech ve Yeni Teknolojiler",
+        "link": "https://forum.chip.com.tr/forum/hi-tech-yeni-teknolojiler-f44/",
+        "description": "En son ürünler, yeni teknolojiler, son haberler...",
+        "subforums": []
+    },
+    {
+        "name": "Internet Tarayıcıları ve Eklentiler",
+        "link": "https://forum.chip.com.tr/forum/internet-tarayicilari-eklentiler-f104/",
+        "description": "Browserlar: Internet Explorer, Firefox, Opera ve diğer internet tarayıcıları hakkında sorun ve ipuçları",
+        "subforums": []
+    },
+    {
+        "name": "Messenger ve diğer Mesajlaşma",
+        "link": "https://forum.chip.com.tr/forum/messenger-diger-mesajlasma-f58/",
+        "description": "MSN, ICQ, Miranda, AIM, Yahoo! Messenger",
+        "subforums": []
+    },
+    {
+        "name": "E-Posta ve Spam",
+        "link": "https://forum.chip.com.tr/forum/e-posta-spam-f147/",
+        "description": "E-mail ve Spam",
+        "subforums": []
+    },
+    {
+        "name": "DSL ve Servis Sağlayıcılar",
+        "link": "https://forum.chip.com.tr/forum/dsl-servis-saglayicilar-f30/",
+        "description": "Dial-Up, GPRS, DSL, KabloNET vs. gibi Internet bağlantı seçenekleri ile ilgili sorun, çözüm ve önerilerinizi bu alanda paylaşabilirsiniz.",
+        "subforums": []
+    },
+    {
+        "name": "Web Servisleri ve Web Hosting",
+        "link": "https://forum.chip.com.tr/forum/web-servisleri-web-hosting-f31/",
+        "description": "Internet üzerinde, E-Mail, Hosting, Domain Name vs. gibi hizmet veren servisler hakkında görüş ve önerilerinizi bu alanda paylaşabilirsiniz.",
+        "subforums": []
+    },
+    {
+        "name": "Bloglar ve Sosyal Ağlar",
+        "link": "https://forum.chip.com.tr/forum/bloglar-sosyal-aglar-f150/",
+        "description": "Bloglar ve Facebook, Twitter, Friendfeed gibi sosyal ağlar",
+        "subforums": []
+    },
+    {
+        "name": "RSS, XML, Portallar",
+        "link": "https://forum.chip.com.tr/forum/rss-xml-portallar-f149/",
+        "description": "RSS, XML, Portallar",
+        "subforums": []
+    },
+    {
+        "name": "VoIP ve IP-Telefonu",
+        "link": "https://forum.chip.com.tr/forum/voip-ip-telefonu-f148/",
+        "description": "VoIP ve IP Telefon sistemleri, Skype",
+        "subforums": []
+    },
+    {
+        "name": "Bookmark",
+        "link": "https://forum.chip.com.tr/forum/bookmark-f29/",
+        "description": "Beğendiğiniz Web Sayfalarını bu bölümde paylaşabilirsiniz.",
+        "subforums": []
+    },
+    {
+        "name": "Online Alışveriş",
+        "link": "https://forum.chip.com.tr/forum/online-alisveris-f83/",
+        "description": "Internet üzerinden alışveriş yapılan siteler hakkında CHIP Online üyelerinin paylaşım bölümü",
+        "subforums": []
+    },
+    {
+        "name": "Mobil uygulamalar",
+        "link": "https://forum.chip.com.tr/forum/mobil-uygulamalar-f153/",
+        "description": "",
+        "subforums": []
+    },
+    {
+        "name": "Genel Yazılım",
+        "link": "https://forum.chip.com.tr/forum/genel-yazilim-f21/",
+        "description": "Shareware Freeware programlar, öneriler, sorun ve çözümler.",
+        "subforums": []
+    },
+    {
+        "name": "Ofis Yazılımları",
+        "link": "https://forum.chip.com.tr/forum/ofis-yazilimlari-f151/",
+        "description": "MS Office ve OpenOffice vb.",
+        "subforums": []
+    },
+    {
+        "name": "Photoshop, Grafik, 3D",
+        "link": "https://forum.chip.com.tr/forum/photoshop-grafik-3d-f152/",
+        "description": "Photoshop, Grafik, 3D yazılımları",
+        "subforums": []
+    },
+    {
+        "name": "Güvenlik",
+        "link": "https://forum.chip.com.tr/forum/guvenlik-f34/",
+        "description": "Güvenlik yazılımları, firewall'lar",
+        "subforums": []
+    },
+    {
+        "name": "Download",
+        "link": "https://forum.chip.com.tr/forum/download-f154/",
+        "description": "Yazılım İndirme ve diğer Araçlar",
+        "subforums": []
+    },
+    {
+        "name": "CD/DVD Yazma",
+        "link": "https://forum.chip.com.tr/forum/cddvd-yazma-f155/",
+        "description": "CD, DVD ve BluRay yazma",
+        "subforums": []
+    },
+    {
+        "name": "Video düzenleme ve codec'ler",
+        "link": "https://forum.chip.com.tr/forum/video-duzenleme-codec-ler-f156/",
+        "description": "Video Düzenleme ve Video Çözücüler",
+        "subforums": []
+    },
+    {
+        "name": "Dijital Video TV ve Uydu",
+        "link": "https://forum.chip.com.tr/forum/dijital-video-tv-uydu-f157/",
+        "description": "Dijital Video TV ve Uydu Yayınları ve Sistemleri",
+        "subforums": []
+    },
+    {
+        "name": "Temalar ve Duvarkağıtları",
+        "link": "https://forum.chip.com.tr/forum/temalar-duvarkagitlari-f158/",
+        "description": "Temalar, Kabuklar ve Duvarkağıtları",
+        "subforums": []
+    },
+    {
+        "name": "Windows 7 Temaları",
+        "link": "https://forum.chip.com.tr/forum/windows-7-temalari-f120/",
+        "description": "Windows 7 temalarınızı burada paylaşıyoruz.",
+        "subforums": []
+    },
+    {
+        "name": "Programlama",
+        "link": "https://forum.chip.com.tr/forum/programlama-f174/",
+        "description": "Programlama Dilleri için özel forum",
+        "subforums": [
+            {
+                "name": "C#",
+                "link": "https://forum.chip.com.tr/forum/c-f101/"
+            },
+            {
+                "name": "Visual Basic ve VB#",
+                "link": "https://forum.chip.com.tr/forum/visual-basic-vb-f36/"
+            },
+            {
+                "name": "HTML CSS ve Javascript",
+                "link": "https://forum.chip.com.tr/forum/html-css-javascript-f102/"
+            },
+            {
+                "name": "ASP Klasik",
+                "link": "https://forum.chip.com.tr/forum/asp-klasik-f175/"
+            },
+            {
+                "name": "C ve C++",
+                "link": "https://forum.chip.com.tr/forum/c-c-f37/"
+            },
+            {
+                "name": "PHP",
+                "link": "https://forum.chip.com.tr/forum/php-f100/"
+            },
+            {
+                "name": "Java Delphi Pascal",
+                "link": "https://forum.chip.com.tr/forum/java-delphi-pascal-f39/"
+            },
+            {
+                "name": "Microsoft SQL Server",
+                "link": "https://forum.chip.com.tr/forum/microsoft-sql-server-f176/"
+            },
+            {
+                "name": "mySQL",
+                "link": "https://forum.chip.com.tr/forum/mysql-f177/"
+            },
+            {
+                "name": "Flash ve Silvelight",
+                "link": "https://forum.chip.com.tr/forum/flash-silvelight-f27/"
+            },
+            {
+                "name": "Diğer Diller",
+                "link": "https://forum.chip.com.tr/forum/diger-diller-f63/"
+            }
+        ]
+    },
+    {
+        "name": "Mobil Programlama",
+        "link": "https://forum.chip.com.tr/forum/mobil-programlama-f178/",
+        "description": "Mobil cihazlar için programlama",
+        "subforums": [
+            {
+                "name": "Windows Phone  Programlama",
+                "link": "https://forum.chip.com.tr/forum/windows-phone-programlama-f181/"
+            },
+            {
+                "name": "Android Programlama",
+                "link": "https://forum.chip.com.tr/forum/android-programlama-f179/"
+            },
+            {
+                "name": "iOS Programlama",
+                "link": "https://forum.chip.com.tr/forum/ios-programlama-f180/"
+            }
+        ]
+    },
+    {
+        "name": "Web Tasarım Genel",
+        "link": "https://forum.chip.com.tr/forum/web-tasarim-genel-f26/",
+        "description": "HTML ve diğer kategorilere girmeyen Web Tasarım sorularınız için burayı kullanabilirsiniz.",
+        "subforums": []
+    },
+    {
+        "name": "CHIP Dergisi",
+        "link": "https://forum.chip.com.tr/forum/chip-dergisi-f2/",
+        "description": "CHIP Dergisi ile ilgili görüşler, öneriler.",
+        "subforums": []
+    },
+    {
+        "name": "CHIP DVD ve CD  İçerik",
+        "link": "https://forum.chip.com.tr/forum/chip-dvd-cd-icerik-f3/",
+        "description": "CHIP DVD ve CD içeriği ile ilgili fikirler ve öneriler.",
+        "subforums": []
+    },
+    {
+        "name": "CHIP Online",
+        "link": "https://forum.chip.com.tr/forum/chip-online-f7/",
+        "description": "CHIP Online hakkında görüş ve önerilerinizi bu alanda paylaşabilirsiniz.",
+        "subforums": []
+    },
+    {
+        "name": "CHIP Special / CHIP Özel",
+        "link": "https://forum.chip.com.tr/forum/chip-special-chip-ozel-f48/",
+        "description": "CHIP Özel Sayıları ve CHIP Special'lar ile ilgili tartışmalar",
+        "subforums": []
+    },
+    {
+        "name": "CHIP Download",
+        "link": "https://forum.chip.com.tr/forum/chip-download-f111/",
+        "description": "İndirme önerileriniz ve CHIP.Download.Eu hakkında görüşleriniz",
+        "subforums": []
+    }
+]
