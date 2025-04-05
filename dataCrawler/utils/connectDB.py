@@ -3,8 +3,16 @@ from confluent_kafka import Producer, Consumer
 import redis
 import psycopg2
 
-def connect_elasticsearch():
-    es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
+ELASTICSEARCH_HOST = "https://localhost:9200"
+ELASTICSEARCH_USERNAME = "elastic"
+ELASTICSEARCH_PASSWORD = "96Evyn6sQaS-cjBOIuk6"
+
+def create_elasticsearch_client():
+    es = Elasticsearch(
+        ELASTICSEARCH_HOST,
+        basic_auth=(ELASTICSEARCH_USERNAME, ELASTICSEARCH_PASSWORD),
+        verify_certs=False
+    )    
     if es.ping():
         print("Connected to Elasticsearch")
     else:
