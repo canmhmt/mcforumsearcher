@@ -47,6 +47,7 @@ def forum_chip(forum_name):
                     soup_list.append(soup)
                     pagination = soup.find("ul", class_="pagination")
                     if not pagination:
+                        print(f"Pagination not found in {subcategory_link}")
                         continue
                     page_links = pagination.find_all("a")
                     page_numbers = []
