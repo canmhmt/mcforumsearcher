@@ -9,6 +9,7 @@ import json
 from parse_fetched_data import Parse
 from utils.connectDB import *
 from utils.kafkaTools import produce_kafka_data
+from utils.models import get_active_forums_query
 import random
 from utils.general import * 
 from utils.redisTools import *
@@ -88,6 +89,7 @@ def forum_chip(forum_name):
                     continue
                 
 def create_app():
+    active_forums = PsqlQuery.get_active_forums_query()
     for forum in forums:
         forum_name = forum.get("forum_name")
         if forum_name == "chip":

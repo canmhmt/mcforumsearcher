@@ -15,6 +15,6 @@ create table mcforumsearcher.public.categories(
 	category_name_slug VARCHAR(100),
 	is_active INT default 0
 );
-
-insert into mcforumsearcher.public.forums (forum_name, forum_name_slug, url, category, is_active) values ('Donanım Haber Forum', 'donanimhaber', 'https://forum.donanimhaber.com/', 1, 1)
+SELECT * FROM mcforumsearcher.public.forums;
+insert into mcforumsearcher.public.forums (forum_name, forum_name_slug, url, category_id, is_active) values ('Chip Forum', 'chipforum', 'https://forum.donanimhaber.com/', 1, 1);
 insert into mcforumsearcher.public.categories (category_name, category_name_slug, is_active) values ('Teknoloji', 'teknoloji', 1)
