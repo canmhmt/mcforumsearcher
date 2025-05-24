@@ -6,7 +6,7 @@ from utils.general import *
 
 class Parse():
     def get_parsed_topics_data(platform, soup):
-        if platform == "chip":
+        if platform == "Chip Forum":
             threads = soup.find_all("div", class_="thread-row")
             thread_data = []
             for thread in threads:

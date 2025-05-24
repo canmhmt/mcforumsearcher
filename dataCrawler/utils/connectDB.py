@@ -1,49 +1,81 @@
-from elasticsearch import Elasticsearch
-from confluent_kafka import Producer, Consumer
+import os
 import redis
 import psycopg2
+from psycopg2 import OperationalError
+from elasticsearch import Elasticsearch, exceptions as es_exceptions
+from confluent_kafka import Producer, Consumer, KafkaException
+from dotenv import load_dotenv
 
-ELASTICSEARCH_HOST = "https://localhost:9200"
-ELASTICSEARCH_USERNAME = "elastic"
-ELASTICSEARCH_PASSWORD = "96Evyn6sQaS-cjBOIuk6"
+load_dotenv()
 
 def create_elasticsearch_client():
-    es = Elasticsearch(
-        ELASTICSEARCH_HOST,
-        basic_auth=(ELASTICSEARCH_USERNAME, ELASTICSEARCH_PASSWORD),
-        verify_certs=False
-    )    
-    if es.ping():
-        print("Connected to Elasticsearch")
-    else:
-        print("Could not connect to Elasticsearch")
-    return es
+    try:
+        es = Elasticsearch(
+            os.getenv("ELASTICSEARCH_HOST"),
+            basic_auth=(
+                os.getenv("ELASTICSEARCH_USERNAME"),
+                os.getenv("ELASTICSEARCH_PASSWORD")
+            ),
+            verify_certs=False,
+            request_timeout=10
+        )
+        if es.ping():
+            return es
+        else:
+            print("❌ Elasticsearch ping failed")
+            return None
+    except es_exceptions.ConnectionError as e:
+        print("❌ Elasticsearch connection error:", e)
+        return None
 
 def connect_kafka_producer():
-    producer = Producer({'bootstrap.servers': "localhost:9092"})
-    print("Connected to Confluent Kafka Producer")
-    return producer
+    try:
+        producer = Producer({
+            'bootstrap.servers': os.getenv("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092")
+        })
+        return producer
+    except KafkaException as e:
+        print("❌ Kafka Producer connection failed:", e)
+        return None
 
 def connect_kafka_consumer():
-    consumer = Consumer({
-        'bootstrap.servers': "localhost:9092",
-        'group.id': "forum_kafka_consumer",
-        'auto.offset.reset': 'earliest'
-    })
-    print(f"Connected to Confluent Kafka Consumer")
-    return consumer
+    try:
+        consumer = Consumer({
+            'bootstrap.servers': os.getenv("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092"),
+            'group.id': os.getenv("KAFKA_CONSUMER_GROUP", "forum_kafka_consumer"),
+            'auto.offset.reset': 'earliest'
+        })
+        return consumer
+    except KafkaException as e:
+        print("❌ Kafka Consumer connection failed:", e)
+        return None
 
 def connect_redis(host='localhost', port=6379, db=0):
-    r = redis.Redis(host=host, port=port, db=db)
-    return r
+    try:
+        r = redis.Redis(host=host, port=port, db=db, socket_timeout=5)
+        r.ping()
+        return r
+    except redis.RedisError as e:
+        print("❌ Redis connection failed:", e)
+        return None
 
-def connect_postgres(dbname, user, password, host='localhost', port=5432):
-    conn = psycopg2.connect(
-        dbname=dbname,
-        user=user,
-        password=password,
-        host=host,
-        port=port
-    )
-    print("Connected to PostgreSQL")
-    return conn
+def connect_psql(
+    dbname=os.getenv("POSTGRES_DB"),
+    user=os.getenv("POSTGRES_USER"),
+    password=os.getenv("POSTGRES_PASSWORD"),
+    host=os.getenv("POSTGRES_HOST", "localhost"),
+    port=os.getenv("POSTGRES_PORT", 5432)
+):
+    try:
+        conn = psycopg2.connect(
+            dbname=dbname,
+            user=user,
+            password=password,
+            host=host,
+            port=port,
+            connect_timeout=5
+        )
+        return conn
+    except OperationalError as e:
+        print("❌ PostgreSQL connection failed:", e)
+        return None
