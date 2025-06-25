@@ -30,7 +30,7 @@ class PsqlQuery():
         try:
             with psql_cursor() as cursor:
                 cursor.execute("""
-                SELECT forum_name_slug FROM mcforumsearcher.public.forums WHERE is_active = 1;
+                SELECT forum_name_slug, base_topic_url FROM mcforumsearcher.public.forums WHERE is_active = 1;
                 """)
                 fetched_data = cursor.fetchall()
                 if fetched_data:
