@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Cep Telefonları",
+        "link": "https://forum.chip.com.tr/forum/uzmanina-sorun-f65/",
+        "description": "Burada CHIP Online Ana sayfadan gelen sorular yanıtlanacaktır.",
+        "subforums": []
+    },
+    {
+        "name": "Bilgisayar",
+        "link": "https://forum.chip.com.tr/forum/bilgisayar-f2/",
+        "description": "Bilgisayar ile ilgili tüm konular",
+        "subforums": [
+            {
+                "name": "Donanım",
+                "link": "https://forum.chip.com.tr/forum/donanim-f3/",
+                "description": "Bilgisayar donanımı ile ilgili sorular"
+            },
+            {
+                "name": "Yazılım",
+                "link": "https://forum.chip.com.tr/forum/yazilim-f4/",
+                "description": "Bilgisayar yazılımları ile ilgili sorular"
+            }
+        ]
+    },
+    {
+        "name": "İnternet",
+        "link": "https://forum.chip.com.tr/forum/internet-f5/",
+        "description": "İnternet ile ilgili tüm konular",
+        "subforums": [
+            {
+                "name": "Sosyal Medya",
+                "link": "https://forum.chip.com.tr/forum/sosyal-medya-f6/",
+                "description": "Sosyal medya platformları ile ilgili sorular"
+            },
+            {
+                "name": "Web Tasarım",
+                "link": "https://forum.chip.com.tr/forum/web-tasarim-f7/",
+                "description": "Web tasarım ve geliştirme ile ilgili sorular"
+            }
+        ]
+    },
+    {
+        "name": "Oyun",
+        "link": "https://forum.chip.com.tr/forum/oyun-f8/",
+        "description": "Oyunlar ile ilgili tüm konular",
+        "subforums": [
+            {
+                "name": "PC Oyunları",
+                "link": "https://forum.chip.com.tr/forum/pc-oyunlari-f9/",
+                "description": "Bilgisayar oyunları ile ilgili sorular"
+            },
+            {
+                "name": "Konsol Oyunları",
+                "link": "https://forum.chip.com.tr/forum/konsol-oyunlari-f10/",
+                "description": "Oyun konsolları ve oyunları ile ilgili sorular"
+            }
+        ]
+    },
+    {
+        "name": "Mobil",
+        "link": "https://forum.chip.com.tr/forum/mobil-f11/",
+        "description": "Mobil cihazlar ile ilgili tüm konular",
+        "subforums": [
+            {
+                "name": "Android",
+                "link": "https://forum.chip.com.tr/forum/android-f12/",
+                "description": "Android işletim sistemi ile ilgili sorular"
+            },
+            {
+                "name": "iOS",
+                "link": "https://forum.chip.com.tr/forum/ios-f13/",
+                "description": "Apple iOS işletim sistemi ile ilgili sorular"
+            }
+        ]
+    },
+    {
+        "name": "Teknoloji Haberleri",
+        "link": "https://forum.chip.com.tr/forum/teknoloji-haberleri-f14/",
+        "description": "Son teknoloji haberleri ve tartışmaları",
+        "subforums": []
+    }
+]

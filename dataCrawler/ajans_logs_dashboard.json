@@ -1,0 +1,146 @@
+{
+  "dashboard": {
+    "id": null,
+    "uid": null,
+    "title": "Ajans Logs Dashboard",
+    "timezone": "browser",
+    "schemaVersion": 38,
+    "version": 1,
+    "refresh": "5s",
+    "panels": [
+      {
+        "type": "timeseries",
+        "title": "Request Count per Hour",
+        "datasource": {
+          "type": "postgres",
+          "uid": "your_datasource_uid"
+        },
+        "targets": [
+          {
+            "format": "table",
+            "rawSql": "\nSELECT\n  date_trunc('hour', req_time) AS time,\n  count(*) AS \"Request Count\"\nFROM\n  ajans_logs\nWHERE\n  $__timeFilter(req_time)\nGROUP BY\n  1\nORDER BY\n  1\n",
+            "refId": "A"
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "fieldConfig": {
+          "defaults": {},
+          "overrides": []
+        }
+      },
+      {
+        "type": "piechart",
+        "title": "Status Code Distribution",
+        "datasource": {
+          "type": "postgres",
+          "uid": "your_datasource_uid"
+        },
+        "targets": [
+          {
+            "format": "table",
+            "rawSql": "\nSELECT\n  status_code,\n  count(*) AS count\nFROM\n  ajans_logs\nWHERE\n  $__timeFilter(req_time)\nGROUP BY\n  status_code\nORDER BY\n  count DESC\n",
+            "refId": "B"
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 12,
+          "y": 0
+        },
+        "fieldConfig": {
+          "defaults": {},
+          "overrides": []
+        }
+      },
+      {
+        "type": "barchart",
+        "title": "Top 10 Users by Request",
+        "datasource": {
+          "type": "postgres",
+          "uid": "your_datasource_uid"
+        },
+        "targets": [
+          {
+            "format": "table",
+            "rawSql": "\nSELECT\n  username,\n  count(*) AS request_count\nFROM\n  ajans_logs\nWHERE\n  $__timeFilter(req_time)\nGROUP BY\n  username\nORDER BY\n  request_count DESC\nLIMIT 10\n",
+            "refId": "C"
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 8
+        },
+        "fieldConfig": {
+          "defaults": {},
+          "overrides": []
+        }
+      },
+      {
+        "type": "barchart",
+        "title": "Request Method Usage",
+        "datasource": {
+          "type": "postgres",
+          "uid": "your_datasource_uid"
+        },
+        "targets": [
+          {
+            "format": "table",
+            "rawSql": "\nSELECT\n  req_method,\n  count(*) AS method_count\nFROM\n  ajans_logs\nWHERE\n  $__timeFilter(req_time)\nGROUP BY\n  req_method\nORDER BY\n  method_count DESC\n",
+            "refId": "D"
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 12,
+          "y": 8
+        },
+        "fieldConfig": {
+          "defaults": {},
+          "overrides": []
+        }
+      },
+      {
+        "type": "table",
+        "title": "Top IP Addresses by Request",
+        "datasource": {
+          "type": "postgres",
+          "uid": "your_datasource_uid"
+        },
+        "targets": [
+          {
+            "format": "table",
+            "rawSql": "\nSELECT\n  remote_addr,\n  count(*) AS request_count\nFROM\n  ajans_logs\nWHERE\n  $__timeFilter(req_time)\nGROUP BY\n  remote_addr\nORDER BY\n  request_count DESC\nLIMIT 10\n",
+            "refId": "E"
+          }
+        ],
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 16
+        },
+        "fieldConfig": {
+          "defaults": {},
+          "overrides": []
+        }
+      }
+    ],
+    "time": {
+      "from": "now-24h",
+      "to": "now"
+    },
+    "templating": {
+      "list": []
+    }
+  },
+  "overwrite": true
+}
