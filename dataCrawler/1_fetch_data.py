@@ -9,6 +9,7 @@ import json
 import sys
 import aiohttp
 import html
+import hashlib
 
 from parse_fetched_data import Parse
 from utils.connectDB import *
@@ -26,12 +27,12 @@ async def send_get_requests(url):
             data = await response.text()
             return data
 
-async def parse_main_title_objects(response, platform):
+async def parse_main_title_objects(response, platform, redis_client):
     if platform == "chipforum":
-        data_obj = await parse_chip_forum(response)
+        data_obj = await parse_chip_forum(response, redis_client)
     return data_obj
     
-async def parse_chip_forum(response):
+async def parse_chip_forum(response, redis_client):
     soup = bs(response, 'html.parser')
     threads = soup.select('.thread-row')
     data = []
@@ -44,6 +45,9 @@ async def parse_chip_forum(response):
 
             title = title_tag.text.strip()
             url = title_tag['href'].strip()
+            status = await check_redis_key(redis_client, url)
+            if status:
+                continue
 
             starter = thread.select_one('.smallfont .uyename').text.strip()
             start_time = thread.select_one('.smallfont .time').text.strip()
@@ -55,7 +59,6 @@ async def parse_chip_forum(response):
             reply_view = thread.select_one('.count-cell').get_text(separator='|', strip=True).split('|')
             reply_count = int(reply_view[0].replace("Yanıt: ", "").strip())
             view_count = int(reply_view[1].replace("Hit: ", "").replace(",", "").strip())
-
             data.append({
                 "title": title,
                 "title_url": url,
@@ -64,18 +67,34 @@ async def parse_chip_forum(response):
                 "reply_count": reply_count,
                 "view_count": view_count
             })
+            await set_redis_key(redis_client, url)
+
         except Exception as e:
             print(f"[!] Skipped a thread due to error: {e}")
             continue
     return data
 
+async def check_redis_key(redis_client, data):
+    hash_data = await asyncio.to_thread(hash_data, data)
+    status = await redis_client.get(hash_data)
+    return status
+
+async def set_redis_key(redis_client, data):
+    hash_data = await asyncio.to_thread(hash_data, data)
+    status = await redis_client.set(hash_data)
+    return status
+
+def hash_data(data):
+    hash_data = hashlib.sha256(data.encode())
+    return hash_data
+
 async def run_bot(bot_id, platform, url):
     response = await send_get_requests(url)
     print(f"Successfully fetched data from {url}")
-    data = await parse_main_title_objects(response, platform)
+    redis_client = await connect_redis() 
+    data = await parse_main_title_objects(response, platform, redis_client)
     print(f"Parsed fetched data from the {platform} platform.")
     producer = await connect_kafka_producer()
-    redis_client = "skdfjlsakfdj" # redis client eklenecek
     try:
         if producer and data and len(data) > 0:
             await producer.start()
