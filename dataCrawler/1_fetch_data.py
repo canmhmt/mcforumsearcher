@@ -45,8 +45,11 @@ async def parse_chip_forum(response, redis_client):
 
             title = title_tag.text.strip()
             url = title_tag['href'].strip()
-            status = await check_redis_key(redis_client, url)
-            if status:
+            if url:
+                status = await check_redis_key(redis_client, url)
+                if status:
+                    continue
+            else:
                 continue
 
             starter = thread.select_one('.smallfont .uyename').text.strip()
@@ -70,28 +73,29 @@ async def parse_chip_forum(response, redis_client):
             await set_redis_key(redis_client, url)
 
         except Exception as e:
+            traceback.print_exc()
             print(f"[!] Skipped a thread due to error: {e}")
             continue
     return data
 
 async def check_redis_key(redis_client, data):
-    hash_data = await asyncio.to_thread(hash_data, data)
-    status = await redis_client.get(hash_data)
+    hashed_data = await asyncio.to_thread(hash_data, data)
+    status = await redis_client.get(hashed_data)
     return status
 
 async def set_redis_key(redis_client, data):
-    hash_data = await asyncio.to_thread(hash_data, data)
-    status = await redis_client.set(hash_data)
+    hashed_data = await asyncio.to_thread(hash_data, data)
+    status = await redis_client.set(hashed_data, hashed_data)
     return status
 
 def hash_data(data):
-    hash_data = hashlib.sha256(data.encode())
+    hash_data = hashlib.sha256(data.encode()).hexdigest()
     return hash_data
 
 async def run_bot(bot_id, platform, url):
     response = await send_get_requests(url)
     print(f"Successfully fetched data from {url}")
-    redis_client = await connect_redis() 
+    redis_client = await connect_redis(db = forum_details_redis_db_number) 
     data = await parse_main_title_objects(response, platform, redis_client)
     print(f"Parsed fetched data from the {platform} platform.")
     producer = await connect_kafka_producer()
@@ -106,8 +110,10 @@ async def run_bot(bot_id, platform, url):
     finally:
         if producer:
             await producer.stop()
-            print("Producer Kafka stopped, bot will sleep 5 minutes.")
-            time.sleep(300)
+        if redis_client:
+            await redis_client.aclose()
+        print("Producer Kafka and Redis closed, bot will sleep 5 minutes.")
+        await asyncio.sleep(300)
 
 async def create_app():
     while True:

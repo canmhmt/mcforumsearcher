@@ -49,7 +49,7 @@ def connect_kafka_consumer():
         print("Kafka Consumer connection failed:", e)
         return None
 
-async def connect_redis(host='localhost', port=6379, db):
+async def connect_redis(host='localhost', port=6379, db=0):
     try:
         r = redis.Redis(host=host, port=port, db=db, socket_timeout=5)
         await r.ping()
